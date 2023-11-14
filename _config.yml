@@ -27,13 +27,18 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cheuora
 github_username: cheuora
 author: cheuora
-show_excerpts: true
+show_excerpts: false
+paginate: 10
+paginate_path: "/page:num/"
+
 
 # Build settings
 theme: minima
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

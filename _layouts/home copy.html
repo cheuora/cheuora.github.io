@@ -12,7 +12,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "MyMemory" }}</h2>
     <ul class="post-list">
-      {%- for post in paginator.posts -%}
+      {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -27,24 +27,8 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-<!-- Pagination links -->
-<div class="pagination">
-  <center>
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">⇦</a>
-    {% else %}
-      <span class="previous"></span>
-    {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">⇨</a>
-    {% else %}
-      <span class="next "></span>
-    {% endif %}
-  </center>
-  </div>
 
-
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
 </div>
