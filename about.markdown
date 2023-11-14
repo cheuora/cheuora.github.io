@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<img src='https://media.licdn.com/dms/image/C4E03AQHuFxZNXEM5bw/profile-displayphoto-shrink_400_400/0/1516847203591?e=1705536000&v=beta&t=WKx5ORziT9pohL8fu-BVbWhzgYalD2wisxVe6L5Eepw' width=100>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+#### Hello... 
+#### My name is George Kim and SNS ID is cheuora
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I am interested in Improving SW Dev Quality, and SW Product Quality. 
+I am teaching SW dev in Samsung Software Academy For Youth from June 2019
 
-
-[jekyll-organization]: https://github.com/jekyll
