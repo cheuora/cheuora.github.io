@@ -22,16 +22,15 @@ for(path, dir, files) in os.walk(post_dir):
     for filename in files:
         filenames = filenames + glob.glob(path + '/*md')
 
-print(filenames)
-
 #filenames = glob.glob(post_dir + '*md')
 #filenames = filenames + glob.glob(draft_dir + '*md')
 
 total_tags = []
-for filename in filenames:
+for filename in filenames:    
     f = open(filename, 'r', encoding='utf8')
     crawl = False
     for line in f:
+        print(line)
         if crawl:
             current_tags = line.strip().split(':') 
             if current_tags[0] == 'tags':
@@ -44,7 +43,7 @@ for filename in filenames:
                     total_tags.extend(list_tags)
                 crawl = False
                 break
-        if line.strip() == '---':
+        if '---' in line:
             if not crawl:
                 crawl = True
             else:
@@ -53,7 +52,9 @@ for filename in filenames:
     f.close()
 total_tags = set(total_tags)
 
+
 old_tags = glob.glob(tag_dir + '*.md')
+
 for tag in old_tags:
     os.remove(tag)
     
