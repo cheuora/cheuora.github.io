@@ -33,13 +33,12 @@ paginate_path: "/page:num/"
 
 
 # Build settings
-# theme: minima
-remote_theme: jekyll/minima
+theme: minima
+# remote_theme: jekyll/minima
 
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-remote-theme
 
 
 # Exclude from processing.
