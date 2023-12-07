@@ -10,13 +10,32 @@ tags: [windows, powershell, grep]
 
 그러던 중 windows powershell 에서 이와 비슷한 명령이 있다는것을 알았는데 바로 `Select-Sting` 이다. `grep`과 기능은 거의 비슷하다.
 
-그런데 이게 손에 익지도 않고 `Select-String`이라는 명령어도 쓰려고 하면 잘 기억이 안났다. 그래서 찾아낸 방법이 powershell의 `Set-Alias`기능이다. 
+그런데 이게 손에 익지도 않고 `Select-String`이라는 명령어도 쓰려고 하면 잘 기억이 안났다. 그래서 찾아낸 방법이 powershell의 `New-Alias`기능이다. 
 
-Powershell에서 `Set-Alias`를 통해 `Select-String`명령에 `grep`이라고 Alias를 먹이는 명령이다. 
+Powershell에서 `New-Alias`를 통해 `Select-String`명령에 `grep`이라고 Alias를 먹이는 명령이다. 
+
+```powershell
+> New-Alias -Name grep -Value Select-String
+```
+
+이렇게 하면 현재 세션에서만 적용이 되며 powershell 을 종료하면 사라진다.
+
+이를 유지시키려면 세션 프로파일에 입력해 놓아야 한다. 
+
+```powershell
+New-Item -path $PROFILE -type file -force
+notepad $PROFILE
+```
+
+이러면 노트패드에 `$profile$` 이란 이름의 파일이 열린다. 여기에 
 
 ```
-> Set-Alias -Name grep -Value Select-String
+New-Alias -Name grep -Value Select-String
 ```
+
+을 입력하고 저장한다. 
+
+이후 powershell 을 종료하고 다시 시작해도 Alias가 사라지지않고 `grep`명령이 그대로 실행된다. 
 
 
 
