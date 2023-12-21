@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: 회고"
-tag: 회고
+title: "Tag: rust"
+tag: rust
 robots: noindex
 ---
