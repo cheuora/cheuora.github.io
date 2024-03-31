@@ -153,4 +153,4 @@ ubuntu     17818   17680  0 15:18 pts/0    00:00:00 grep --color=auto unit
 
 이 표를 보면 Client/Second 에서 접속자 수가 100Client/sec일 때 응답 시간이 4㎳ vs 1197㎳로 어마하게 차이가 났다. 
 
-이정도면 nginx unit으로 애플리케이션을 올릴 값어치는 있지 않을 까? 
+이정도면 nginx unit으로 애플리케이션을 올릴 값어치는 있지 않을까? 
