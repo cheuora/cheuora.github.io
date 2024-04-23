@@ -88,7 +88,7 @@ print("[end] 걸린시간:", time.time() - start)
 
 
 
-~~그런데 ... 실행하면 Producer.py는 `flush()`에서 hang이 걸리는지 동작이 멈추고 Consumer.py는 kafka 브로커에 접속도 못하고 hang상태로 묶여있다.~~  <sup>(2024년 수정)새로운 yaml로 설치하면 오류는 발 </sup>
+~~그런데 ... 실행하면 Producer.py는 `flush()`에서 hang이 걸리는지 동작이 멈추고 Consumer.py는 kafka 브로커에 접속도 못하고 hang상태로 묶여있다.~~  <sup>(2024년 수정)새로운 yaml로 설치하면 오류는 발생하지 않는다. </sup>
 
 `localhost`가 컨테이너와 서버가 다르게 해석하는 현상때문으로 파악되었다. https://hub.docker.com/r/bitnami/kafka 의 오버뷰 페이지를 보니까 **Apache Kafka development setup example** 이라고 따로 있었다. <sup>2024년 현재 docker-compose.yaml파일의 내용이 바뀌었다. new quorum을 적용하여 docker파일에 zookeeper가 없어졌지만... 이 yaml파일을 돌리면 zookeeper및 kafka 컨테이너 2개가 여전히 설치된다</sup>
 
