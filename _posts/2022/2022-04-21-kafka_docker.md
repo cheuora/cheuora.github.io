@@ -240,4 +240,5 @@ volumes:
   zookeeper_data:
     driver: local
   kafka_data:
+    driver: local
 ```
