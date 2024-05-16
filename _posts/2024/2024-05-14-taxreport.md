@@ -20,6 +20,7 @@ use_math: false
 
 * pm2, forever 같은 프로세스 관리 툴을 사용해 프로세스를 띄운다
 * watchdog같은 것을 활용하여 파일 작업의 동기화를 안정화시킨다
+* kafka는 그대로 활용한다. 다중 프로세스에서 처리를 위해서는 필요하다.
 * pdf변환은 adobe api를 사용하지 않고 libreoffice의 unoserver를 활용한다.
 
 
@@ -147,47 +148,42 @@ xlsx파일의 pdf 변환작업을 위한 unoserver는 도커 컨테이너로 띄
 
 
 
-### pdf변환 : `transxlsx2pdf.js`
+### xlsx파일의 kafka전달 : `sendxlsx2que.js`
 
 
 
 ```javascript
-//Watch working directory and make change xlsx files to pdf on the fly.
-//Use Unoserver for transforming xlsx to pdf 
+
 const path = require('path');
-const axios = require('axios');
-const FormData = require('form-data');
-const fs = require('fs');
 const chokidar = require('chokidar');
+const {Kafka} = require('kafkajs');
+
+const kafka = new Kafka({
+  clientId: 'sendXlsxFile',
+  brokers: ['localhost:9092']
+})
+
+const producer = kafka.producer();
 
 // 감시할 디렉토리 지정
 const directoryToWatch = path.join(__dirname, 'readyfiles');
 //pdf작업 디렉토리 지정
-const pdfDirectory = path.join(__dirname,'pdffiles');
 
-async function sendPostRequest(xlsxfilename){
-    const url = 'http://127.0.0.1:2004/request';
-    const formData = new FormData();
 
-    // 파일 추가
-    formData.append('file', fs.createReadStream(xlsxfilename));
-    // 추가 폼 필드
-    formData.append('convert-to', 'pdf');
-
+async function sendToKafka(xlsxfilename){  
     try {
-      const response = await axios.post(url, formData, {
-          headers: {
-              ...formData.getHeaders(),
-          },
-          responseType: 'arraybuffer' // 파일로 다운로드 받기 위해 필요
-      });
+      await producer.connect();
+      await producer.send({
+        topic: 'xlsxfiles',
+        messages:[
+          {value: path.basename(xlsxfilename)}
+        ]
+      })
+      console.log("Sending Filename to kafka is done!");
+      await producer.disconnect();
 
-      // 파일로 저장
-      fs.writeFileSync(pdfDirectory + '/' + path.basename(xlsxfilename) + '.pdf', response.data);
-
-      console.log('File downloaded and saved');
     }catch (error) {
-          console.error('Error during the request:', error.message);
+          console.error('Error during sending to kafka:', error.message);
     }
 }
 
@@ -199,7 +195,7 @@ const watcher = chokidar.watch(directoryToWatch, {
   
 
 // 파일이 추가되었을 때의 이벤트 핸들러
-watcher.on('add', path => {sendPostRequest(path);console.log(`File ${path} has been converted.`)});
+watcher.on('add', path => {sendToKafka(path);console.log(`File ${path} has been sent`)});
 
 
 // 에러 핸들링
@@ -208,41 +204,122 @@ watcher.on('error', error => console.log(`Watcher error: ${error}`));
 console.log(`Now watching for file changes in ${directoryToWatch}`);
 
 
+
 ```
 
 
 
 * `const chokidar = require('chokidar');` : nodejs에서 와치독 기능을 하는 라이브러리(`chokidar`)이다. 
-* `    const url = 'http://127.0.0.1:2004/request';`: 이 url은 도커 컨테이너로 띄운 unoserver의 url이다. 내부에서만 사용할 것이며 이 서버에 xlsx파일을 `axios`를 사용해 전달하고 pdf결과를 `response.data`로 받을 것이다.
+* `async function sendToKafka(xlsxfilename)` :엑셀 파일명을 kafka로 publishing한다. 원본 파일은 `readyfiles` 폴더에 들어 있다. 
 * `const watcher = chokidar.watch()`: 감시자 설정 
 * `watcher.on()` : 파일이 추가 되었을때 이벤트 핸들러. 여기서는 `add` 및 `error`에 대해 사용했다. 
 
 
 
-pdf 파일은 pdffiles라는 폴더에 저장이 되게 된다. 이 pdffiles 폴더에 파일이 생기면 이 파일을 입력된 이메일 주소로 보내주는 와치독 프로그램을 하나 더 만들었다. (mailing.js)
-
-
-
-### 메일발송(`mailing.js`)
+### 작업 파일을 pdf로 변환(que2pdf.js)
 
 ```javascript
-//Watch working directory and make change xlsx files to pdf on the fly.
-//Use Unoserver for transforming xlsx to pdf 
+
+const path = require('path');
+const {Kafka} = require('kafkajs');
+const axios = require('axios');
+const FormData = require('form-data');
+const fs = require('fs');
+
+const kafka = new Kafka({
+  clientId: 'receiveXlsxFile',
+  brokers: ['localhost:9092']
+})
+
+const consumer = kafka.consumer({groupId : 'test2-group'});
+const producer = kafka.producer();
+const pdfDirectory = path.join(__dirname,'pdffiles');
+
+async function sendPostRequest(xlsxfilename){
+  const url = 'http://127.0.0.1:2004/request';
+  const formData = new FormData();
+
+  // 파일 추가
+  formData.append('file', fs.createReadStream(xlsxfilename));
+  // 추가 폼 필드
+  formData.append('convert-to', 'pdf');
+
+  try {
+    const response = await axios.post(url, formData, {
+        headers: {
+            ...formData.getHeaders(),
+        },
+        responseType: 'arraybuffer' // 파일로 다운로드 받기 위해 필요
+    });
+
+
+    // 파일로 저장
+    fs.writeFileSync(pdfDirectory + '/' + path.basename(xlsxfilename) + '.pdf', response.data);
+    console.log('PDF File downloaded and saved');
+
+  }catch (error) {
+        console.error('Error during the request:', error.message);
+  }
+}
+
+const initKafka = async() => {
+  await consumer.connect();
+  await producer.connect();
+  await consumer.subscribe({topic: 'xlsxfiles', fromBeginning: true});
+  await consumer.run({
+    eachMessage: async({topic, partition, message}) => {
+      var filename = message.value.toString();
+      sendPostRequest(path.join(__dirname,'readyfiles', filename));
+      var pdffile = filename + ".pdf";
+      await producer.send({
+        topic: 'shouldbemailed',
+        messages: [
+          {value: pdffile},
+        ]
+      })
+      console.log("modified filename has been sent!");
+
+    }
+  });
+
+};
+
+
+initKafka();
+```
+
+* `async function sendPostRequest(xlsxfilename)` : 엑셀 파일을 unosever에 axios로 전달하여 pdf변환결과를 얻어온다. 저장은 `pdffiles`폴더에 수행된다
+* `  await consumer.subscribe({topic: 'xlsxfiles', fromBeginning: true});` ‘xlsxfiles’ 토픽의 메시지를 kafka에서 받아온다. 
+* `      await producer.send({` : 받아온 메시지(이미지 작업된 엑셀 파일명)를 pdf로 변환후 파일명을 ‘shouldbemailed’라는 토픽으로 전달한다.
+
+
+
+
+
+### 메일발송(`que2mail.js`)
+
+```javascript
 const path = require('path');
 const fs = require('fs');
-const chokidar = require('');
+
 const nodemailer = require('nodemailer');
+const {Kafka} = require('kafkajs');
+
+const kafka = new Kafka({
+  clientId: 'mailpdffile',
+  brokers: ['localhost:9092']
+});
+
+const consumer = kafka.consumer({groupId : 'test3-group'});
 
 
-// 감시할 디렉토리 지정
-const directoryToWatch = path.join(__dirname, 'pdffiles');
+
 // 메일 본문
-
-
 const htmlContent = fs.readFileSync(path.join(__dirname, 'public', 'emailbody.html'), 'utf8');
 
 function extractEmailFromFilename(filename) {
   // '_'를 구분자로 사용하여 파일 이름을 분리합니다.
+
   const parts = filename.split('_');
   
   // 두 번째 이메일 정보(두 번째 요소)를 추출합니다.
@@ -265,9 +342,8 @@ async function sendmail(pdffilename){
         }
       }
     );
-    console.log(htmlContent);
     let mailOption = {
-      from: "logicalandemotional@gmail.com",
+      from: "logicalxxx@gmail.com",
       to : targetEmailAddr,
       subject: "정산 pdf 메일",
       html: htmlContent,
@@ -290,21 +366,23 @@ async function sendmail(pdffilename){
     
 }
 
-// chokidar 감시자 설정
-const watcher = chokidar.watch(directoryToWatch, {
-  ignored: /(^|[\/\\])\../, // 숨김 파일 무시
-  persistent: true
-});
-  
+const initKafka = async() => {
+  await consumer.connect();
+  await consumer.subscribe({topic: 'shouldbemailed', fromBeginning: true});
+  await consumer.run({
+    eachMessage: async({topic, partition, message}) => {
+      var filename = message.value.toString();
+      //pdf 파일 발송
+      sendmail(path.join(__dirname,'pdffiles',filename));
+      console.log("modified filename has been sent!");
+    }
+  });
 
-// 파일이 추가되었을 때의 이벤트 핸들러
-watcher.on('add', path => {sendmail(path);console.log(`File ${path} has been sent`)});
 
+};
 
-// 에러 핸들링
-watcher.on('error', error => console.log(`Watcher error: ${error}`));
+initKafka();
 
-console.log(`Now watching for file changes in ${directoryToWatch}`);
 ```
 
 
