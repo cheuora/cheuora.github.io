@@ -1,0 +1,57 @@
+---
+layout: post
+title: 홍콩은 가고 타이완이 온다 적어도 나에게는..
+tags: [영화]
+use_math: false
+---
+
+
+
+나는 홍콩 영화를 상당히 좋아 했다. 
+
+중학교 때 주윤발 형님이 멋지게 지폐에 불을 붙이고 거기에 담배를 피우는 모습부터 시작하여 강시 시리즈, 소림 축구, 느와르,... 헐리웃에서 생각하지 못한 수많은 장르들의 영화를 만들었다. 홍콩이라는 특수한 사회가 만드는 산물이라고 생각했다. 심지어 90년 중국 반환 전까지 그 분위기를 영화화 했다. 
+
+![](https://mblogthumb-phinf.pstatic.net/data18/2007/3/7/224/5-1-runfilm.jpg?type=w420)
+
+그런데 중국으로 반환되고, 갑자기 영화 제작이 줄었다. 자세한 이유는 나도 잘 모르겠다. 그러더니 갑자기 중국 공산당의 국뽕이 점점 들어가기 시작한다. 
+
+<img src='https://i.namu.wiki/i/pKKrRy2qgKzDiIVCbAKxlNYN5sGXdAaMm3LHNXKOP94OUeiG2qu2R8miCjfwjNIp24GV2dk4dL2V5VO8hkg3_YCjFIvN3uMPAS3-zfFFXULRCAndeNL4XbOe1sTOKoNbGhQC6R0-6fmLQXBKQ1d3Nw.webp' width=400>
+
+
+
+그리고 과거 영국령 홍콩은 타락했었다는 것을 지속적으로 강조하기 시작한다. 
+
+
+
+<img src='https://i.namu.wiki/i/deZplFYfy5np2fgBIOTnhn8UhZhCPU4m5dc3LI6h9g24LJVm1261i2aF3Ot5VJVBvit7mJAD5TCObV1L8W2EnvzCI_R85pFxfN57kfboSehZtfVv-cwhobAdoaSQ6OOZl4SowLhMhJ_3HLxPYhZ43w.webp' width=400>
+
+
+
+위 영화들을 내가 추천하는 것은 아니다. 영화 “무명” 은 공산당의 항일운동을 주재로 했고 “풍재기시”는 비리 가득한 영국령 홍콩 경찰들의 삶을 보여준다. 예전의 ‘비정성시’ 같은 명작에서 나왔던 양조위는 어디로 갔을까? 어쨌든 나는 양조위를 좋아한다는 이유로 위 두 영화를 모두 봤다. 
+
+
+
+홍콩다운 영화의 부재를 일본 영화로 달래고 있을 때 넷플릭스를 통해 알게 된 것이 바로 ‘타이완’ 영화이다. 
+
+![](https://img.khan.co.kr/news/2023/05/27/news-p.v1.20230525.fa059d1fe67941789fe9e49bce1c27ad_P1.webp)
+
+사실 이는 영화는 아니고 8부작 이다. 이전에 나는 타이완의 사회를 잘 몰랐는데 이렇게 홍콩 못지않게 사회적으로, 문화적으로 활발한 곳이었나 라고 다시 생각했다. 여기에서는 한국, 일본에서도 흔히 일어날 수 있는 동성애의 시각, 성추행 문제부터 환경, 선거 문제 까지 다양한 것을 다루고 있다. 정말 재미있게 본 드라마이다.
+
+
+
+![](https://an2-img.amz.wtchn.net/image/v2/pWVTNWRC4PocG9aDq89tVA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5Ea3dlRGN3TUhFNE1DSmRMQ0p3SWpvaUwzWXhMMnh3YkdSeVlYQjZZelp5YjNCbmJtSm5jSFI0SW4wLmg5enFxRTlOZWhuWnQ5dG5GS1Q2X3VQQU1ZOHBSbngtQVk0WldBbjR4MU0)
+
+이 영화는 한글로 ‘나의 EX’ 라는 제목으로 올라왔다. 남편이 알고보니 동성애 자고 간 경화(? 자세한 병명은 모르겠다.)로 죽고 나니 사망 보험금을 동성애 애인 앞으로 나오게 해 놓았다 아들놈은 이 애인집으로 가출해 살고 있다. 다소 황당한 시추에이션으로 시작하는 이 영화는 시간이 흐르고 상황이 이해가 되면서 자잘한 감동을 준다. 
+
+
+
+홍콩 영화와는 다르지만, 생각하기 어려운 부분을 영화들은 건드려 우리에게 보여주고 있다. 그러니까 또 과거 홍콩 영화 삘이 느껴지기도 한다. 여기에 나온 대사를 소개하며 이 글을 마칠 까 한다. 
+
+
+
+> “1만년이 얼마나 길까”
+> “1만년 만큼요”
+> “틀렸어. 1만년은 어떤 사림이 평범해 지고 싶다면서 널 떠났을 때, 그 날 부터 하루 하루가 바로 1만년인 거야”
+
+
+
