@@ -2,7 +2,7 @@
 layout: post
 title: (컨텍스트 분석)커피 머신 버튼 사용자 시나리오 생성... 
 img : 
-tags: [Analyzingcontext.com, 시나리오]
+tags: [test,testcase]
 ---
 
 analyzingcontext.com 을 만들어 놓고 별로 써먹지를 않아서인지 사용자 유입이 거의 없는 상태여서.. 
