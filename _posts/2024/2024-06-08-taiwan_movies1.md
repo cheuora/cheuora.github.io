@@ -15,15 +15,15 @@ use_math: false
 
 그런데 중국으로 반환되고, 갑자기 영화 제작이 줄었다. 자세한 이유는 나도 잘 모르겠다. 그러더니 갑자기 중국 공산당의 국뽕이 점점 들어가기 시작한다. 
 
-<img src='https://i.namu.wiki/i/pKKrRy2qgKzDiIVCbAKxlNYN5sGXdAaMm3LHNXKOP94OUeiG2qu2R8miCjfwjNIp24GV2dk4dL2V5VO8hkg3_YCjFIvN3uMPAS3-zfFFXULRCAndeNL4XbOe1sTOKoNbGhQC6R0-6fmLQXBKQ1d3Nw.webp' width=400>
+<img src='https://cdn.slist.kr/news/photo/202304/442734_713930_4720.jpg' width=400>
 
 
 
-그리고 과거 영국령 홍콩은 타락했었다는 것을 지속적으로 강조하기 시작한다. 
+그리고 과거 영국령 홍콩은 타락했었다는 것을 강조하기 시작한다. 
 
 
 
-<img src='https://i.namu.wiki/i/deZplFYfy5np2fgBIOTnhn8UhZhCPU4m5dc3LI6h9g24LJVm1261i2aF3Ot5VJVBvit7mJAD5TCObV1L8W2EnvzCI_R85pFxfN57kfboSehZtfVv-cwhobAdoaSQ6OOZl4SowLhMhJ_3HLxPYhZ43w.webp' width=400>
+<img src='https://img.extmovie.com/files/attach/images/135/213/577/090/f8139c6d33358a12c3013a6029b1e2ef.jpg' width=400>
 
 
 
