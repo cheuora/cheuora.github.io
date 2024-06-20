@@ -21,9 +21,7 @@ use_math: false
 
 그리고 과거 영국령 홍콩은 타락했었다는 것을 강조하기 시작한다. 
 
-
-
-<img src="https://img.extmovie.com/files/attach/images/135/213/577/090/f8139c6d33358a12c3013a6029b1e2ef.jpg" style="zoom:67%;" />
+<img src="https://i.namu.wiki/i/OjvAR33zLtx2DoguJ77AjZCuDdsGxXkUnhmUNLAEBBe4-YJipn37C944FQ7YCKS0foxnklgXpLi_3E78oerYoNIVZvfUCimdMWerbCE0A79Kc2RqOWq98ZwKnOHlYkIgikd4E62Yi-dJZ-HBucjhKA.webp" style="zoom:50%;" />
 
 
 
