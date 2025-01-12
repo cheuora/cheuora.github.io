@@ -115,7 +115,7 @@ Dify에서 이제 워크 플로우를 작성한다.
 
 ‘시작’ 다음에 HTTP요청을 설정한다.
 
-HTTPS요청 설정은 다음과 같다.
+HTTP요청 설정은 다음과 같다.
 
 ![image-20250111232644317](https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/images/image-20250111232644317.png)
 
