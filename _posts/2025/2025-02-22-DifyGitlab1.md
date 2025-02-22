@@ -1,7 +1,7 @@
 ---
 layout: post
-title: AI가 개발자를 대체할까?
-tags: [AI, Developer]
+title: Dify로 gitlab 개발환경 MR발생시 GPT를 통한 자동 리뷰 시스템 구축(1)
+tags: [dify, gitlab, codereview]
 use_math: false
 ---
 
