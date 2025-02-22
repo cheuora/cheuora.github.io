@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dify로 gitlab 개발환경 MR발생시 GPT를 통한 자동 리뷰 시스템 구축(1)
+title: Dify와 gitlab연동(1)
 tags: [dify, gitlab, codereview]
 use_math: false
 ---
