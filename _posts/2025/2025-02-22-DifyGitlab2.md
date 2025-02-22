@@ -76,8 +76,11 @@ Focus on the modified code and provide feedback specifically on these changes. T
 When writing the feedback, be kind and clear. The goal is to help junior developers grow. Please provide the review in Korean.
 Diff Information:
 
-{{#context#}}
+/컨텍스트
+
 ```
+마지막 `/컨텍스트` 부분은 직접 `/`를 타이핑해 입력합니다.
+
 
 이 노드의 출력은 text로 기본 설정됩니다. 
 
