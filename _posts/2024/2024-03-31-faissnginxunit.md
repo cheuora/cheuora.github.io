@@ -51,7 +51,7 @@ embeddings = embedder.encode(sentences)
 np.save("./embeddings.npy", embeddings)
 ```
 
-이제 flask용 RESTAPI 서버를 만든다.
+이제 flask용 RESTAPI 서버를 만든다(파일명: wsgi.py).
 
 ```
 import pandas as pd
