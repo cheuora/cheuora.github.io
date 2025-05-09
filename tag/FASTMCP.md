@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: 영화"
-tag: 영화
+title: "Tag: FASTMCP"
+tag: FASTMCP
 robots: noindex
 ---
