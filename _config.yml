@@ -61,10 +61,12 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+timezone: Asia/Seoul
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+encoding: UTF-8
 
 google_analytics: G-8VEJRF1EC8
