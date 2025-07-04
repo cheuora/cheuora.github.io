@@ -17,7 +17,7 @@ use_math: false
 
 제시하는 전체 프로세스는 다음과 같다
 
-<img src="assets/image-20250704004003143.png" alt="image-20250704004003143" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20250704004003143.png" alt="image-20250704004003143" style="zoom:50%;" />
 
 여러분들은 Human Readership 부분을 담당하고 있다. AI라는 팀원들에게 일을 시키는데 여기서는 3단계로 테스크를 나누어 시킨다. 
 
@@ -31,7 +31,7 @@ use_math: false
 
 
 
-![image-20250704011843579](assets/image-20250704011843579.png)
+![image-20250704011843579](https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20250704011843579.png)
 
 
 
