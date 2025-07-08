@@ -27,11 +27,11 @@ use_math: false
 
 ```python
 
-def main(arg1: str) -> dict:
+def main(arg1: str, siteurl:str,  prjid:str) -> dict:
 
     mrIID = arg1.split("/")[-1]
-
-    apiUrl = "https://gitlab.example.com/api/v4/projects/5935/merge_requests/" + mrIID +"/diffs"
+    # 예시 : apiUrl = "https://gitlab.example.com/api/v4/projects/5935/merge_requests/" + mrIID +"/diffs" 형태여야 한다. 
+    apiUrl = siteurl + "api/v4/projects/" + prjid + "/merge_requests/" + mrIID + "/diffs"
 
     return {
         "result": apiUrl
