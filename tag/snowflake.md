@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: DDD"
-tag: DDD
+title: "Tag: snowflake"
+tag: snowflake
 robots: noindex
 ---
