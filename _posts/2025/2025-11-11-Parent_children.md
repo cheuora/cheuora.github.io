@@ -13,13 +13,13 @@ Dify 에서는 RAG를 위해 ‘지식’ 등록을 지원합니다. 텍스트 �
 
 다음과 같은 영업팀 인원별 매출 데이터가 있다고 합시다. 데이터는 전부 300 라인이며 2024-2025년도 매출 성적을 보여줍니다.
 
-![image-20251111164744470](assets/image-20251111164744470.png)
+![image-20251111164744470](https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20251111164744470.png)
 
  
 
 이를 이전 방법으로 ‘지식’ 을 ‘일반’ 으로 등록하고 검색을 해 보도록 하겠습니다. 지식의 등록화면은 다음과 같습니다. 
 
-![image-20251111165550784](assets/image-20251111165550784.png)
+![image-20251111165550784](https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20251111165550784.png)
 
 일반으로 옵션을 주었습니다. 그냥 캐리지리턴 2회(\n\n)를 청크(덩어리)로 구분하는 것입니다.
 
@@ -29,23 +29,23 @@ Dify앱 만들기에서 ‘빈 상태로 시작’ → ‘에이전트’ 를 �
 
 여기에서 다음과 같이 설정합니다. 컨텍스트 부분에서 아까 위에서 만든 매출데이터 지식을 선택해 줍니다. 
 
-![image-20251111170244502](assets/image-20251111170244502.png)
+![image-20251111170244502](https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20251111170244502.png)
 
 LLM은 디폴트로 선택되는 gpt4가 300라인을 처리를 못한다는 오류가 떠서 gpt4o-mini 로 바꾸었습니다. 
 
 옆 창의 ‘디버그 및 미리보기’ 에서 테스트를 해봅시다
 
-<img src="assets/image-20251111170850638.png" alt="image-20251111170850638" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20251111170850638.png" alt="image-20251111170850638" style="zoom:67%;" />
 
 곽은지 사원의 매출 분석이 서버와 SSD만 나왔습니다. 다른 것은 없을 까요? 원본 데이터를 보니까 곽은지 사원은 모니터, 헤드셋 등 많은 매출을 올렸지만 이 벡터 데이터베이스 상에서는 서버와 SSD만 분석합니다. 자기 편한 것만 가져오는 것 같습니다. 
 
-<img src="assets/image-20251111171040770.png" alt="image-20251111171040770" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20251111171040770.png" alt="image-20251111171040770" style="zoom:67%;" />
 
 이의 문제들을 완화하기 위해 부모-자식 구조를 도입하였습니다.  얕은 트리 구조로 생각하면 이해하기 쉬울 것 같습니다. 
 
 지식 등록시 ‘부모-자식’ 을 선택하면 다음과 같은 옵션이 나옵니다. 
 
-![image-20251111172437561](assets/image-20251111172437561.png)
+![image-20251111172437561](https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20251111172437561.png)
 
 Parent-chunk 라는 것은 루트 노드를 의미합니다. 루트 노드를 여러개 둘 경우는 ‘단락’ 을 선택합니다. 루트와 루트간의 구분자는 디폴트로 캐리지 리턴 2개(\n\n)로 되어 있습니다. 위 매출 데이터는 루트가 나뉘어 있지 않으므로 문서 전체를 하나의 루트로 볼 수 있겠습니다. 이런 경우 ‘전체 문서’를 선택합니다(저는 전체문서를 선택했습니다). 
 
@@ -53,7 +53,7 @@ Parent-chunk 라는 것은 루트 노드를 의미합니다. 루트 노드를 �
 
 그대로 등록을 마치고 아까 Dify애플리케이션에서 컨텍스트를 위에서 만든 것으로 변경하여 동일한 질문을 해 보도록 하겠습니다. 
 
-<img src="assets/image-20251111215648424.png" alt="image-20251111215648424" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20251111215648424.png" alt="image-20251111215648424" style="zoom: 50%;" />
 
 
 
