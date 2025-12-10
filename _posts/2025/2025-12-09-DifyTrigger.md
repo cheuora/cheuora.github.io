@@ -30,23 +30,26 @@ Dify의 버전이 1.10.x로 넘어가면서 새로운 기능이 나왔습니다.
 웹훅 URL은 임의로 자동생성됩니다. 수정할 수는 없습니다. 접속할 서비스에서 POST로 넘길 것이므로 POST로 선택합니다. URL중에 ‘localhost’ 부분은 Dify를 설치한 서버의 도메인 호스트로 변경하여 gitlab 웹훅에 입력하셔야 합니다. 
 
 ![image-20251209210512034](https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20251209210512034.png)
-
 <div style='text-align:center'>(gitlab의 webhook설정화면 - localhost부분은 DIfy가 설치된 호스트 도메인입니다)</div>
+
+
 
 이전하고 달라진 부분은 custom webhook templete의 설정입니다. 여기는 Request body부분입니다. 이전에는 flask의 파이썬 코드에서 설정했던 부분을 여기에서 설정했습니다. master 브랜치의 MR중 opened만 고르겠다는 설정입니다.
 
 
 
 ![image-20251209211433206](https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20251209211433206.png)
-
-
-
 <div style='text-align:center'>(gitlab의 webhook설정화면)</div>
+
+
+
+
+
+
 
 DIfy의 웹훅 트리거 노드에서는 다음과 같이 받습니다(Request Body Parameters).
 
 ![image-20251209212451973](https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20251209212451973.png)
-
 <div style='text-align:center'>(Dify의 웹훅 노드 설정)</div>
 
 
