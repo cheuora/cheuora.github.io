@@ -52,7 +52,7 @@ DIfy의 웹훅 트리거 노드에서는 다음과 같이 받습니다(Request B
 ![image-20251209212451973](https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20251209212451973.png)
 <div style='text-align:center'>(Dify의 웹훅 노드 설정)</div>
 
-
+<br><br>
 
 이제 다음 노드부터는 이전의 gitlab 워크플로우와 동일합니다. 다만 prvToken, siteurl을 받아오는 곳이 `X_Gitlab_Token` 및 `X_Gitlab_Instance` 로 바뀌었습니다. 
 
