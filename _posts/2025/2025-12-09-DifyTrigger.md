@@ -32,7 +32,7 @@ Dify의 버전이 1.10.x로 넘어가면서 새로운 기능이 나왔습니다.
 ![image-20251209210512034](https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_posts/2025/assets/image-20251209210512034.png)
 <div style='text-align:center'>(gitlab의 webhook설정화면 - localhost부분은 DIfy가 설치된 호스트 도메인입니다)</div>
 
-
+<br><br>
 
 이전하고 달라진 부분은 custom webhook templete의 설정입니다. 여기는 Request body부분입니다. 이전에는 flask의 파이썬 코드에서 설정했던 부분을 여기에서 설정했습니다. master 브랜치의 MR중 opened만 고르겠다는 설정입니다.
 
@@ -42,7 +42,7 @@ Dify의 버전이 1.10.x로 넘어가면서 새로운 기능이 나왔습니다.
 <div style='text-align:center'>(gitlab의 webhook설정화면)</div>
 
 
-
+<br><br>
 
 
 
