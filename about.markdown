@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_includes/Generated%20Image.png" style="zoom:33%;" />
+<img src="https://raw.githubusercontent.com/cheuora/cheuora.github.io/master/_includes/Generated%20Image.png" style="zoom: 25%;" />
 
 #### Hello... 
 #### My name is George Kim and SNS ID is cheuora
