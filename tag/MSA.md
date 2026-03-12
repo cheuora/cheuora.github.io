@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: MSA"
-tag: MSA
+title: "Tag: msa"
+tag: msa
 robots: noindex
 ---
