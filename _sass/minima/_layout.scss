@@ -229,6 +229,14 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
+  // Center images in post body without affecting header/footer icons.
+  img,
+  figure > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   h2 {
     @include relative-font-size(2);
 
