@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Mermaid"
-tag: Mermaid
+title: "Tag: mermaid"
+tag: mermaid
 robots: noindex
 ---

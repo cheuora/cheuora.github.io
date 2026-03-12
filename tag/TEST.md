@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: TEST"
-tag: TEST
+title: "Tag: test"
+tag: test
 robots: noindex
 ---

@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Automation"
-tag: Automation
+title: "Tag: automation"
+tag: automation
 robots: noindex
 ---
