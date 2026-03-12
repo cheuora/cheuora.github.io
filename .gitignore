@@ -4,4 +4,4 @@ _site
 .jekyll-metadata
 .DS_Store
 vendor
-
+*:Zone.Identifier

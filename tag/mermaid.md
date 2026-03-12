@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: TestCase"
-tag: TestCase
+title: "Tag: mermaid"
+tag: mermaid
 robots: noindex
 ---
