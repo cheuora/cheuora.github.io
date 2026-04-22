@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: codex"
-tag: codex
+title: "Tag: Codex"
+tag: Codex
 robots: noindex
 ---
