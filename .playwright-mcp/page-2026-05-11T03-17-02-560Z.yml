@@ -1,0 +1,1514 @@
+- generic [ref=e2]:
+  - generic:
+    - generic: "Skip to:"
+    - list:
+      - listitem:
+        - link "Top Bar":
+          - /url: "#_r0_"
+      - listitem:
+        - link "Sidebar":
+          - /url: "#_r3_"
+      - listitem:
+        - link "Main Content":
+          - /url: "#_r4_"
+      - listitem:
+        - link "스페이스 탐색":
+          - /url: "#_r95_"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - button "사이드바 펼치기" [ref=e9] [cursor=pointer]:
+            - generic [ref=e11]: 사이드바 펼치기
+          - generic [ref=e12]:
+            - button "사이트 또는 앱 전환" [ref=e14] [cursor=pointer]:
+              - generic [ref=e17]: 사이트 또는 앱 전환
+            - link "Jira 홈페이지로 이동" [ref=e19] [cursor=pointer]:
+              - /url: /jira
+              - img [ref=e23]
+        - generic [ref=e26]:
+          - button [ref=e27] [cursor=pointer]:
+            - search [ref=e28]:
+              - combobox "Search, press enter to navigate to advanced search with your text query" [ref=e31]
+          - button "만들기" [ref=e34] [cursor=pointer]:
+            - generic [ref=e37]: 만들기
+        - navigation "Actions" [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - button "Rovo Rovo에게 질문하기" [ref=e42] [cursor=pointer]:
+                - img "Rovo" [ref=e44]:
+                  - img [ref=e45]
+                - generic [ref=e50]: Rovo에게 질문하기
+            - listitem [ref=e51]:
+              - button "알림" [ref=e54] [cursor=pointer]:
+                - generic [ref=e57]: 알림
+            - listitem [ref=e60]:
+              - button "도움말" [ref=e61] [cursor=pointer]:
+                - generic [ref=e64]: 도움말
+            - listitem [ref=e66]:
+              - button "설정" [ref=e67] [cursor=pointer]:
+                - generic [ref=e70]: 설정
+            - listitem [ref=e71]:
+              - button "armitage@naver.com" [ref=e72] [cursor=pointer]:
+                - generic [ref=e73]:
+                  - img [ref=e76]
+                  - generic [ref=e77]: armitage@naver.com
+    - main [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - navigation "Breadcrumbs" [ref=e86]:
+              - list [ref=e87]:
+                - listitem [ref=e88]:
+                  - link "스페이스" [ref=e89] [cursor=pointer]:
+                    - /url: /jira/projects
+                    - generic [ref=e90]: 스페이스
+                  - text: /
+                - listitem [ref=e91]:
+                  - link "S14P31A301" [ref=e92] [cursor=pointer]:
+                    - /url: /browse/S14P31A301
+                    - generic [ref=e93]: S14P31A301
+            - generic [ref=e94]:
+              - heading "S14P31A301 보드" [level=1] [ref=e96]
+              - generic [ref=e97]:
+                - button "사용자 추가" [ref=e99] [cursor=pointer]:
+                  - generic [ref=e102]: 사용자 추가
+                - button "보드 작업" [ref=e104] [cursor=pointer]:
+                  - generic [ref=e107]: 보드 작업
+              - generic [ref=e108]:
+                - button "공유" [ref=e109] [cursor=pointer]:
+                  - img "공유" [ref=e111]
+                - button "자동화" [ref=e112] [cursor=pointer]:
+                  - img "자동화" [ref=e114]
+                - button "피드백 제공" [ref=e116] [cursor=pointer]:
+                  - generic [ref=e119]: 피드백 제공
+                - button "전체 화면 사용" [ref=e121] [cursor=pointer]:
+                  - generic [ref=e124]: 전체 화면 사용
+          - navigation "스페이스 탐색" [ref=e125]:
+            - list [ref=e126]:
+              - listitem [ref=e127]:
+                - link "요약" [ref=e132] [cursor=pointer]:
+                  - /url: /jira/software/c/projects/S14P31A301/summary
+                  - generic [ref=e135]: 요약
+              - listitem [ref=e136]:
+                - link "타임라인" [ref=e141] [cursor=pointer]:
+                  - /url: /jira/software/c/projects/S14P31A301/boards/13073/timeline
+                  - generic [ref=e144]: 타임라인
+              - listitem [ref=e145]:
+                - link "백로그" [ref=e150] [cursor=pointer]:
+                  - /url: /jira/software/c/projects/S14P31A301/boards/13073/backlog
+                  - generic [ref=e153]: 백로그
+              - listitem [ref=e154]:
+                - heading "활성 스프린트" [level=2] [ref=e159]:
+                  - generic [ref=e162]: 활성 스프린트
+              - listitem [ref=e163]:
+                - link "캘린더" [ref=e168] [cursor=pointer]:
+                  - /url: /jira/software/c/projects/S14P31A301/boards/13073/calendar
+                  - generic [ref=e171]: 캘린더
+              - listitem [ref=e172]:
+                - link "보고서" [ref=e177] [cursor=pointer]:
+                  - /url: /jira/software/c/projects/S14P31A301/boards/13073/reports
+                  - generic [ref=e180]: 보고서
+              - listitem [ref=e181]:
+                - link "목록" [ref=e186] [cursor=pointer]:
+                  - /url: /jira/software/c/projects/S14P31A301/list
+                  - generic [ref=e189]: 목록
+            - button "12 more tabs" [ref=e195] [cursor=pointer]:
+              - text: More
+              - generic [ref=e199]: 9+
+            - button "탐색에 추가" [ref=e202] [cursor=pointer]:
+              - img "탐색에 추가" [ref=e204]
+        - generic [ref=e210]:
+          - generic [ref=e213]:
+            - generic [ref=e215]:
+              - generic [ref=e216]: 검색하거나 필터를 적용하기 위해 입력하면 보드에 일치하는 업무 항목이 업데이트됩니다.
+              - status [ref=e217]
+              - textbox "현재 페이지에서 검색" [ref=e220]:
+                - /placeholder: 보드 검색
+              - group "담당자로 필터링" [ref=e221]:
+                - generic [ref=e222]: 담당자로 필터링
+                - generic [ref=e223]:
+                  - generic [ref=e224]:
+                    - checkbox "sungjoon 기준으로 담당자 필터링" [ref=e225] [cursor=pointer]
+                    - img [ref=e228] [cursor=pointer]:
+                      - img [ref=e230]
+                  - generic [ref=e231]:
+                    - checkbox "김민재 기준으로 담당자 필터링" [ref=e232] [cursor=pointer]
+                    - img [ref=e235] [cursor=pointer]:
+                      - img [ref=e237]
+                  - generic [ref=e238]:
+                    - checkbox "류수정 기준으로 담당자 필터링" [ref=e239] [cursor=pointer]
+                    - img [ref=e242] [cursor=pointer]:
+                      - img [ref=e244]
+                  - generic [ref=e245]:
+                    - checkbox "이세원 기준으로 담당자 필터링" [ref=e246] [cursor=pointer]
+                    - img [ref=e249] [cursor=pointer]:
+                      - img [ref=e251]
+                  - generic [ref=e252]:
+                    - checkbox "정대철 기준으로 담당자 필터링" [ref=e253] [cursor=pointer]
+                    - img [ref=e256] [cursor=pointer]:
+                      - img [ref=e258]
+                  - generic [ref=e259]:
+                    - checkbox "정은지 기준으로 담당자 필터링" [ref=e260] [cursor=pointer]
+                    - img [ref=e263] [cursor=pointer]:
+                      - img [ref=e265]
+                  - button "+2" [ref=e267]:
+                    - generic [ref=e270] [cursor=pointer]: "+2"
+              - list [ref=e272]:
+                - listitem [ref=e273]:
+                  - button "Epic" [ref=e275] [cursor=pointer]:
+                    - generic [ref=e278]: Epic
+                - listitem [ref=e281]:
+                  - button "유형" [ref=e283] [cursor=pointer]:
+                    - generic [ref=e286]: 유형
+                - listitem [ref=e289]:
+                  - button "빠른 필터" [ref=e291] [cursor=pointer]:
+                    - generic [ref=e294]: 빠른 필터
+            - generic [ref=e297]:
+              - generic [ref=e298]:
+                - generic [ref=e299]:
+                  - button "스프린트 완료" [ref=e301] [cursor=pointer]:
+                    - generic [ref=e302]: 스프린트 완료
+                  - button "스프린트 세부 정보" [ref=e304] [cursor=pointer]:
+                    - generic [ref=e307]: 스프린트 세부 정보
+                - button "스토리(으)로 그룹화" [ref=e309] [cursor=pointer]:
+                  - generic [ref=e312]: "그룹: 스토리"
+                - button "스프린트 인사이트" [ref=e314] [cursor=pointer]:
+                  - generic [ref=e317]: 스프린트 인사이트
+                - button "보기 설정" [ref=e319] [cursor=pointer]:
+                  - generic [ref=e322]: 보기 설정
+              - button "추가 작업" [ref=e324] [cursor=pointer]:
+                - generic [ref=e327]: 추가 작업
+          - generic [ref=e335]:
+            - generic [ref=e337]:
+              - generic [ref=e340] [cursor=pointer]:
+                - 'button "S14P31A301-204 [feat]: 기존 뉴스 csv 파일 조회 구현 (하위 작업 1개) [BE] 외부 데이터 수집 상태 To Do" [expanded] [ref=e341]'
+                - generic [ref=e344]:
+                  - 'button "S14P31A301-204 [feat]: 기존 뉴스 csv 파일 조회 구현 (하위 작업 1개) [BE] 외부 데이터 수집 상태 To Do" [ref=e345]'
+                  - generic [ref=e346]:
+                    - link "S14P31A301-204" [ref=e349]:
+                      - /url: /browse/S14P31A301-204
+                      - generic [ref=e350]: S14P31A301-204
+                    - generic [ref=e352]: "[feat]: 기존 뉴스 csv 파일 조회 구현"
+                    - generic [ref=e353]: (하위 작업 1개)
+                    - generic [ref=e356]: "[BE] 외부 데이터 수집"
+                    - generic [ref=e357]:
+                      - generic [ref=e358]: 상태
+                      - generic [ref=e360]: To Do
+                    - img "정대철" [ref=e362]:
+                      - img [ref=e364]
+              - generic [ref=e366]:
+                - generic [ref=e368]:
+                  - heading "해야 할 일" [level=2] [ref=e379]:
+                    - generic "해야 할 일" [ref=e381]
+                  - list [ref=e382]
+                - generic [ref=e384]:
+                  - heading "진행 중" [level=2] [ref=e395]:
+                    - generic [ref=e396]:
+                      - generic "진행 중" [ref=e397]
+                      - generic [ref=e402]:
+                        - generic: "1"
+                  - list [ref=e403]:
+                    - listitem [ref=e404]:
+                      - generic [ref=e408]:
+                        - generic:
+                          - 'button "S14P31A301-259 [feat]: CSV파일 2025년 로컬 GPU 임베딩. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e409] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e411] [cursor=pointer]: "[feat]: CSV파일 2025년 로컬 GPU 임베딩"
+                                  - generic [ref=e413] [cursor=pointer]:
+                                    - generic [ref=e414]:
+                                      - img "하위 작업" [ref=e416]
+                                      - link "S14P31A301-259" [ref=e418]:
+                                        - /url: /browse/S14P31A301-259
+                                        - generic [ref=e419]: S14P31A301-259
+                                    - generic [ref=e421]:
+                                      - generic [ref=e424]: "2"
+                                      - button "커밋" [ref=e426]:
+                                        - img "커밋" [ref=e428]
+                                      - img "Low 우선 순위" [ref=e430]
+                                    - img "정대철" [ref=e434]
+                - generic [ref=e436]:
+                  - generic [ref=e446]:
+                    - heading "완료" [level=2] [ref=e447]:
+                      - generic "완료" [ref=e449]
+                    - img "체크리스트 아이콘" [ref=e453]
+                  - list [ref=e454]
+                - generic [ref=e455]:
+                  - generic:
+                    - status [ref=e456]
+                    - status [ref=e457]
+            - generic [ref=e459]:
+              - generic [ref=e462] [cursor=pointer]:
+                - 'button "S14P31A301-186이(가) 확인됨 [chore]: FastAPI 프로젝트 구조 생성 (하위 작업 5개) [AI] AI 서버 구축 상태 Done" [expanded] [ref=e463]'
+                - generic [ref=e466]:
+                  - 'button "S14P31A301-186이(가) 확인됨 [chore]: FastAPI 프로젝트 구조 생성 (하위 작업 5개) [AI] AI 서버 구축 상태 Done" [ref=e467]'
+                  - generic [ref=e468]:
+                    - link "S14P31A301-186이(가) 확인됨" [ref=e471]:
+                      - /url: /browse/S14P31A301-186
+                      - generic [ref=e472]: S14P31A301-186
+                    - generic [ref=e474]: "[chore]: FastAPI 프로젝트 구조 생성"
+                    - generic [ref=e475]: (하위 작업 5개)
+                    - generic [ref=e478]: "[AI] AI 서버 구축"
+                    - generic [ref=e479]:
+                      - generic [ref=e480]: 상태
+                      - generic [ref=e482]: Done
+                    - img "정대철" [ref=e484]:
+                      - img [ref=e486]
+              - generic [ref=e488]:
+                - generic [ref=e490]:
+                  - heading "해야 할 일" [level=2] [ref=e501]:
+                    - generic "해야 할 일" [ref=e503]
+                  - list [ref=e504]
+                - generic [ref=e506]:
+                  - heading "진행 중" [level=2] [ref=e517]:
+                    - generic "진행 중" [ref=e519]
+                  - list [ref=e520]
+                - generic [ref=e522]:
+                  - generic [ref=e532]:
+                    - heading "완료" [level=2] [ref=e533]:
+                      - generic [ref=e534]:
+                        - generic "완료" [ref=e535]
+                        - generic [ref=e540]:
+                          - generic: "5"
+                    - img "체크리스트 아이콘" [ref=e544]
+                  - list [ref=e545]:
+                    - listitem [ref=e546]:
+                      - generic [ref=e550]:
+                        - generic:
+                          - 'button "S14P31A301-246 [feat] : 공통 응답 및 에러 체계 구현. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e551] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e553] [cursor=pointer]: "[feat] : 공통 응답 및 에러 체계 구현"
+                                  - generic [ref=e555] [cursor=pointer]:
+                                    - generic [ref=e556]:
+                                      - img "하위 작업" [ref=e558]
+                                      - link "S14P31A301-246이(가) 확인됨" [ref=e560]:
+                                        - /url: /browse/S14P31A301-246
+                                        - generic [ref=e561]: S14P31A301-246
+                                    - generic [ref=e563]:
+                                      - generic [ref=e566]: "1"
+                                      - button "병합된 풀리퀘스트" [ref=e568]:
+                                        - img "병합된 풀리퀘스트" [ref=e570]
+                                      - img "Low 우선 순위" [ref=e572]
+                                    - img "정대철" [ref=e576]
+                    - listitem [ref=e577]:
+                      - generic [ref=e581]:
+                        - generic:
+                          - 'button "S14P31A301-250 [feat] : core 인프라 의존성 구현. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e582] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e584] [cursor=pointer]: "[feat] : core 인프라 의존성 구현"
+                                  - generic [ref=e586] [cursor=pointer]:
+                                    - generic [ref=e587]:
+                                      - img "하위 작업" [ref=e589]
+                                      - link "S14P31A301-250이(가) 확인됨" [ref=e591]:
+                                        - /url: /browse/S14P31A301-250
+                                        - generic [ref=e592]: S14P31A301-250
+                                    - generic [ref=e594]:
+                                      - generic [ref=e597]: "1"
+                                      - button "병합된 풀리퀘스트" [ref=e599]:
+                                        - img "병합된 풀리퀘스트" [ref=e601]
+                                      - img "Low 우선 순위" [ref=e603]
+                                    - img "정대철" [ref=e607]
+                    - listitem [ref=e608]:
+                      - generic [ref=e612]:
+                        - generic:
+                          - 'button "S14P31A301-252 [feat]: 외부 API 클라이언트 Protocol 및 팩토리 의존성 정의 . 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e613] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e615] [cursor=pointer]: "[feat]: 외부 API 클라이언트 Protocol 및 팩토리 의존성 정의"
+                                  - generic [ref=e617] [cursor=pointer]:
+                                    - generic [ref=e618]:
+                                      - img "하위 작업" [ref=e620]
+                                      - link "S14P31A301-252이(가) 확인됨" [ref=e622]:
+                                        - /url: /browse/S14P31A301-252
+                                        - generic [ref=e623]: S14P31A301-252
+                                    - generic [ref=e625]:
+                                      - generic [ref=e628]: "1"
+                                      - button "병합된 풀리퀘스트" [ref=e630]:
+                                        - img "병합된 풀리퀘스트" [ref=e632]
+                                      - img "Low 우선 순위" [ref=e634]
+                                    - img "정대철" [ref=e638]
+                    - listitem [ref=e639]:
+                      - generic [ref=e643]:
+                        - generic:
+                          - 'button "S14P31A301-253 [feat]: STT 도메인 예시 및 Makefile AI 타깃 추가 . 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e644] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e646] [cursor=pointer]: "[feat]: STT 도메인 예시 및 Makefile AI 타깃 추가"
+                                  - generic [ref=e648] [cursor=pointer]:
+                                    - generic [ref=e649]:
+                                      - img "하위 작업" [ref=e651]
+                                      - link "S14P31A301-253이(가) 확인됨" [ref=e653]:
+                                        - /url: /browse/S14P31A301-253
+                                        - generic [ref=e654]: S14P31A301-253
+                                    - generic [ref=e656]:
+                                      - generic [ref=e659]: "1"
+                                      - button "병합된 풀리퀘스트" [ref=e661]:
+                                        - img "병합된 풀리퀘스트" [ref=e663]
+                                      - img "Low 우선 순위" [ref=e665]
+                                    - img "정대철" [ref=e669]
+                    - listitem [ref=e670]:
+                      - generic [ref=e674]:
+                        - generic:
+                          - 'button "S14P31A301-254 [chore]: AI 프로젝트 보안 검증 강화 및 클라이언트 최적화. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e675] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e677] [cursor=pointer]: "[chore]: AI 프로젝트 보안 검증 강화 및 클라이언트 최적화"
+                                  - generic [ref=e679] [cursor=pointer]:
+                                    - generic [ref=e680]:
+                                      - img "하위 작업" [ref=e682]
+                                      - link "S14P31A301-254이(가) 확인됨" [ref=e684]:
+                                        - /url: /browse/S14P31A301-254
+                                        - generic [ref=e685]: S14P31A301-254
+                                    - generic [ref=e687]:
+                                      - generic [ref=e690]: "1"
+                                      - button "병합된 풀리퀘스트" [ref=e692]:
+                                        - img "병합된 풀리퀘스트" [ref=e694]
+                                      - img "Low 우선 순위" [ref=e696]
+                                    - img "정대철" [ref=e700]
+                - generic [ref=e701]:
+                  - generic:
+                    - status [ref=e702]
+                    - status [ref=e703]
+            - generic [ref=e705]:
+              - generic [ref=e708] [cursor=pointer]:
+                - button "그 외 모든 이슈 (50개의 업무 항목)" [expanded] [ref=e709]
+                - generic [ref=e712]:
+                  - generic [ref=e713]: 그 외 모든 이슈
+                  - generic [ref=e714]: (50개의 업무 항목)
+              - generic [ref=e716]:
+                - generic [ref=e718]:
+                  - heading "해야 할 일" [level=2] [ref=e729]:
+                    - generic [ref=e730]:
+                      - generic "해야 할 일" [ref=e731]
+                      - generic [ref=e736]:
+                        - generic: "3"
+                  - list [ref=e737]:
+                    - listitem [ref=e738]:
+                      - generic [ref=e742]:
+                        - generic:
+                          - 'button "S14P31A301-209 [feat]: 대시보드 템플릿 목록. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e743] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e745] [cursor=pointer]: "[feat]: 대시보드 템플릿 목록"
+                                  - generic [ref=e750] [cursor=pointer]: "[BE] 대시보드"
+                                  - generic [ref=e752] [cursor=pointer]:
+                                    - generic [ref=e753]:
+                                      - img "작업" [ref=e755]
+                                      - link "S14P31A301-209" [ref=e757]:
+                                        - /url: /browse/S14P31A301-209
+                                        - generic [ref=e758]: S14P31A301-209
+                                    - generic [ref=e760]:
+                                      - generic [ref=e763]: "2"
+                                      - img "Low 우선 순위" [ref=e765]
+                                    - img "채지원" [ref=e769]
+                    - listitem [ref=e770]:
+                      - generic [ref=e774]:
+                        - generic:
+                          - 'button "S14P31A301-216 [feat]: 대시보드 삭제. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e775] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e777] [cursor=pointer]: "[feat]: 대시보드 삭제"
+                                  - generic [ref=e782] [cursor=pointer]: "[BE] 대시보드"
+                                  - generic [ref=e784] [cursor=pointer]:
+                                    - generic [ref=e785]:
+                                      - img "작업" [ref=e787]
+                                      - link "S14P31A301-216" [ref=e789]:
+                                        - /url: /browse/S14P31A301-216
+                                        - generic [ref=e790]: S14P31A301-216
+                                    - generic [ref=e792]:
+                                      - generic [ref=e795]: "2"
+                                      - img "Low 우선 순위" [ref=e797]
+                                    - img "채지원" [ref=e801]
+                    - listitem [ref=e802]:
+                      - generic [ref=e806]:
+                        - generic:
+                          - 'button "S14P31A301-210 [feat]: (수정이 대기). 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e807] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e809] [cursor=pointer]: "[feat]: (수정이 대기)"
+                                  - generic [ref=e814] [cursor=pointer]: "[BE] 대시보드"
+                                  - generic [ref=e816] [cursor=pointer]:
+                                    - generic [ref=e817]:
+                                      - img "작업" [ref=e819]
+                                      - link "S14P31A301-210" [ref=e821]:
+                                        - /url: /browse/S14P31A301-210
+                                        - generic [ref=e822]: S14P31A301-210
+                                    - generic [ref=e824]:
+                                      - generic [ref=e827]: "2"
+                                      - img "Low 우선 순위" [ref=e829]
+                                    - img "채지원" [ref=e833]
+                - generic [ref=e835]:
+                  - heading "진행 중" [level=2] [ref=e846]:
+                    - generic [ref=e847]:
+                      - generic "진행 중" [ref=e848]
+                      - generic [ref=e853]:
+                        - generic: "1"
+                  - list [ref=e854]:
+                    - listitem [ref=e855]:
+                      - generic [ref=e859]:
+                        - generic:
+                          - 'button "S14P31A301-199 [feat]: 영업 전략 추천 AI 프로토타입 제작. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e860] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e862] [cursor=pointer]: "[feat]: 영업 전략 추천 AI 프로토타입 제작"
+                                  - generic [ref=e867] [cursor=pointer]: "[AI] 영업 전략 추천 AI 모델 개발"
+                                  - generic [ref=e869] [cursor=pointer]:
+                                    - generic [ref=e870]:
+                                      - img "작업" [ref=e872]
+                                      - link "S14P31A301-199" [ref=e874]:
+                                        - /url: /browse/S14P31A301-199
+                                        - generic [ref=e875]: S14P31A301-199
+                                    - generic [ref=e877]:
+                                      - generic [ref=e880]: "3"
+                                      - img "Low 우선 순위" [ref=e882]
+                                    - img "이세원" [ref=e886]
+                - generic [ref=e888]:
+                  - generic [ref=e898]:
+                    - heading "완료" [level=2] [ref=e899]:
+                      - generic [ref=e900]:
+                        - generic "완료" [ref=e901]
+                        - generic [ref=e905]:
+                          - generic [ref=e906]:
+                            - generic: "4"
+                          - generic [ref=e907]:
+                            - generic: "6"
+                    - img "체크리스트 아이콘" [ref=e911]
+                  - list [ref=e912]:
+                    - listitem [ref=e913]:
+                      - generic [ref=e917]:
+                        - generic:
+                          - 'button "S14P31A301-249 [feat]: 활동 상세 삭제. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e918] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e920] [cursor=pointer]: "[feat]: 활동 상세 삭제"
+                                  - generic [ref=e925] [cursor=pointer]: "[BE] 활동/미팅"
+                                  - generic [ref=e927] [cursor=pointer]:
+                                    - generic [ref=e928]:
+                                      - img "작업" [ref=e930]
+                                      - link "S14P31A301-249이(가) 확인됨" [ref=e932]:
+                                        - /url: /browse/S14P31A301-249
+                                        - generic [ref=e933]: S14P31A301-249
+                                    - generic [ref=e935]:
+                                      - generic [ref=e938]: "2"
+                                      - button "커밋" [ref=e940]:
+                                        - img "커밋" [ref=e942]
+                                      - img "Low 우선 순위" [ref=e944]
+                                    - img "정은지" [ref=e948]
+                    - listitem [ref=e949]:
+                      - generic [ref=e953]:
+                        - generic:
+                          - 'button "S14P31A301-248 [feat]: 활동 상세 수정. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e954] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e956] [cursor=pointer]: "[feat]: 활동 상세 수정"
+                                  - generic [ref=e961] [cursor=pointer]: "[BE] 활동/미팅"
+                                  - generic [ref=e963] [cursor=pointer]:
+                                    - generic [ref=e964]:
+                                      - img "작업" [ref=e966]
+                                      - link "S14P31A301-248이(가) 확인됨" [ref=e968]:
+                                        - /url: /browse/S14P31A301-248
+                                        - generic [ref=e969]: S14P31A301-248
+                                    - generic [ref=e971]:
+                                      - generic [ref=e974]: "2"
+                                      - button "커밋" [ref=e976]:
+                                        - img "커밋" [ref=e978]
+                                      - img "Low 우선 순위" [ref=e980]
+                                    - img "정은지" [ref=e984]
+                    - listitem [ref=e985]:
+                      - generic [ref=e989]:
+                        - generic:
+                          - 'button "S14P31A301-247 [feat]: 활동 상세 조회. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e990] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e992] [cursor=pointer]: "[feat]: 활동 상세 조회"
+                                  - generic [ref=e997] [cursor=pointer]: "[BE] 활동/미팅"
+                                  - generic [ref=e999] [cursor=pointer]:
+                                    - generic [ref=e1000]:
+                                      - img "작업" [ref=e1002]
+                                      - link "S14P31A301-247이(가) 확인됨" [ref=e1004]:
+                                        - /url: /browse/S14P31A301-247
+                                        - generic [ref=e1005]: S14P31A301-247
+                                    - generic [ref=e1007]:
+                                      - generic [ref=e1010]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e1012]:
+                                        - img "병합된 풀리퀘스트" [ref=e1014]
+                                      - img "Low 우선 순위" [ref=e1016]
+                                    - img "정은지" [ref=e1020]
+                    - listitem [ref=e1021]:
+                      - generic [ref=e1025]:
+                        - generic:
+                          - 'button "S14P31A301-160 [feat]: Deal 삭제. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1026] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1028] [cursor=pointer]: "[feat]: Deal 삭제"
+                                  - generic [ref=e1033] [cursor=pointer]: "[BE] 영업건/파이프라인"
+                                  - generic [ref=e1035] [cursor=pointer]:
+                                    - generic [ref=e1036]:
+                                      - img "작업" [ref=e1038]
+                                      - link "S14P31A301-160이(가) 확인됨" [ref=e1040]:
+                                        - /url: /browse/S14P31A301-160
+                                        - generic [ref=e1041]: S14P31A301-160
+                                    - generic [ref=e1043]:
+                                      - generic [ref=e1046]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e1048]:
+                                        - img "병합된 풀리퀘스트" [ref=e1050]
+                                      - img "Low 우선 순위" [ref=e1052]
+                                    - img "류수정" [ref=e1056]
+                    - listitem [ref=e1057]:
+                      - generic [ref=e1061]:
+                        - generic:
+                          - 'button "S14P31A301-158 [feat]: Deal 스테이지 전이. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1062] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1064] [cursor=pointer]: "[feat]: Deal 스테이지 전이"
+                                  - generic [ref=e1069] [cursor=pointer]: "[BE] 영업건/파이프라인"
+                                  - generic [ref=e1071] [cursor=pointer]:
+                                    - generic [ref=e1072]:
+                                      - img "작업" [ref=e1074]
+                                      - link "S14P31A301-158이(가) 확인됨" [ref=e1076]:
+                                        - /url: /browse/S14P31A301-158
+                                        - generic [ref=e1077]: S14P31A301-158
+                                    - generic [ref=e1079]:
+                                      - generic [ref=e1082]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e1084]:
+                                        - img "병합된 풀리퀘스트" [ref=e1086]
+                                      - img "Low 우선 순위" [ref=e1088]
+                                    - img "류수정" [ref=e1092]
+                    - listitem [ref=e1093]:
+                      - generic [ref=e1097]:
+                        - generic:
+                          - 'button "S14P31A301-157 [feat]: Deal 등록. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1098] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1100] [cursor=pointer]: "[feat]: Deal 등록"
+                                  - generic [ref=e1105] [cursor=pointer]: "[BE] 영업건/파이프라인"
+                                  - generic [ref=e1107] [cursor=pointer]:
+                                    - generic [ref=e1108]:
+                                      - img "작업" [ref=e1110]
+                                      - link "S14P31A301-157이(가) 확인됨" [ref=e1112]:
+                                        - /url: /browse/S14P31A301-157
+                                        - generic [ref=e1113]: S14P31A301-157
+                                    - generic [ref=e1115]:
+                                      - generic [ref=e1118]: "2"
+                                      - button "거절된 풀리퀘스트" [ref=e1120]:
+                                        - img "거절된 풀리퀘스트" [ref=e1122]
+                                      - img "Low 우선 순위" [ref=e1124]
+                                    - img "류수정" [ref=e1128]
+                    - listitem [ref=e1129]:
+                      - generic [ref=e1133]:
+                        - generic:
+                          - 'button "S14P31A301-155 [feat]: Deal 상세 조회. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1134] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1136] [cursor=pointer]: "[feat]: Deal 상세 조회"
+                                  - generic [ref=e1141] [cursor=pointer]: "[BE] 영업건/파이프라인"
+                                  - generic [ref=e1143] [cursor=pointer]:
+                                    - generic [ref=e1144]:
+                                      - img "작업" [ref=e1146]
+                                      - link "S14P31A301-155이(가) 확인됨" [ref=e1148]:
+                                        - /url: /browse/S14P31A301-155
+                                        - generic [ref=e1149]: S14P31A301-155
+                                    - generic [ref=e1151]:
+                                      - generic [ref=e1154]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e1156]:
+                                        - img "병합된 풀리퀘스트" [ref=e1158]
+                                      - img "Low 우선 순위" [ref=e1160]
+                                    - img "류수정" [ref=e1164]
+                    - listitem [ref=e1165]:
+                      - generic [ref=e1169]:
+                        - generic:
+                          - 'button "S14P31A301-164 [feat]: AI 인사이트(1~3번까지 스프링부분만). 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1170] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1172] [cursor=pointer]: "[feat]: AI 인사이트(1~3번까지 스프링부분만)"
+                                  - generic [ref=e1177] [cursor=pointer]: "[BE] AI 인사이트/브리핑/실시간"
+                                  - generic [ref=e1179] [cursor=pointer]:
+                                    - generic [ref=e1180]:
+                                      - img "작업" [ref=e1182]
+                                      - link "S14P31A301-164이(가) 확인됨" [ref=e1184]:
+                                        - /url: /browse/S14P31A301-164
+                                        - generic [ref=e1185]: S14P31A301-164
+                                    - generic [ref=e1187]:
+                                      - generic [ref=e1190]: "3"
+                                      - button "병합된 풀리퀘스트" [ref=e1192]:
+                                        - img "병합된 풀리퀘스트" [ref=e1194]
+                                      - img "Low 우선 순위" [ref=e1196]
+                                    - img "류수정" [ref=e1200]
+                    - listitem [ref=e1201]:
+                      - generic [ref=e1205]:
+                        - generic:
+                          - 'button "S14P31A301-165 [feat]: Account 상세 응답 미구현 필드 합성. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1206] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1208] [cursor=pointer]: "[feat]: Account 상세 응답 미구현 필드 합성"
+                                  - generic [ref=e1213] [cursor=pointer]: "[BE] 위키"
+                                  - generic [ref=e1215] [cursor=pointer]:
+                                    - generic [ref=e1216]:
+                                      - img "작업" [ref=e1218]
+                                      - link "S14P31A301-165이(가) 확인됨" [ref=e1220]:
+                                        - /url: /browse/S14P31A301-165
+                                        - generic [ref=e1221]: S14P31A301-165
+                                    - generic [ref=e1223]:
+                                      - generic [ref=e1226]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e1228]:
+                                        - img "병합된 풀리퀘스트" [ref=e1230]
+                                      - img "Low 우선 순위" [ref=e1232]
+                                    - img "채지원" [ref=e1236]
+                    - listitem [ref=e1237]:
+                      - generic [ref=e1241]:
+                        - generic:
+                          - 'button "S14P31A301-166 [feat]: 알람 히스토리조회. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1242] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1244] [cursor=pointer]: "[feat]: 알람 히스토리조회"
+                                  - generic [ref=e1249] [cursor=pointer]: "[BE] AI 인사이트/브리핑/실시간"
+                                  - generic [ref=e1251] [cursor=pointer]:
+                                    - generic [ref=e1252]:
+                                      - img "작업" [ref=e1254]
+                                      - link "S14P31A301-166이(가) 확인됨" [ref=e1256]:
+                                        - /url: /browse/S14P31A301-166
+                                        - generic [ref=e1257]: S14P31A301-166
+                                    - generic [ref=e1259]:
+                                      - generic [ref=e1262]: "2"
+                                      - img "Low 우선 순위" [ref=e1264]
+                                    - img "류수정" [ref=e1268]
+                    - listitem [ref=e1269]:
+                      - generic [ref=e1273]:
+                        - generic:
+                          - 'button "S14P31A301-251 [feat]: Account 도메인 고객사 api 구현(스프링 부분). 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1274] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1276] [cursor=pointer]: "[feat]: Account 도메인 고객사 api 구현(스프링 부분)"
+                                  - generic [ref=e1281] [cursor=pointer]: "[BE] 위키"
+                                  - generic [ref=e1283] [cursor=pointer]:
+                                    - generic [ref=e1284]:
+                                      - img "작업" [ref=e1286]
+                                      - link "S14P31A301-251이(가) 확인됨" [ref=e1288]:
+                                        - /url: /browse/S14P31A301-251
+                                        - generic [ref=e1289]: S14P31A301-251
+                                    - generic [ref=e1291]:
+                                      - generic [ref=e1294]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e1296]:
+                                        - img "병합된 풀리퀘스트" [ref=e1298]
+                                      - img "Low 우선 순위" [ref=e1300]
+                                    - img "채지원" [ref=e1304]
+                    - listitem [ref=e1305]:
+                      - generic [ref=e1309]:
+                        - generic:
+                          - 'button "S14P31A301-205 [feat]: 내부 CRM 데이터 조회 구현. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1310] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1312] [cursor=pointer]: "[feat]: 내부 CRM 데이터 조회 구현"
+                                  - generic [ref=e1317] [cursor=pointer]: "[BE] 외부 데이터 수집"
+                                  - generic [ref=e1319] [cursor=pointer]:
+                                    - generic [ref=e1320]:
+                                      - img "작업" [ref=e1322]
+                                      - link "S14P31A301-205이(가) 확인됨" [ref=e1324]:
+                                        - /url: /browse/S14P31A301-205
+                                        - generic [ref=e1325]: S14P31A301-205
+                                    - generic [ref=e1327]:
+                                      - generic [ref=e1330]: "1"
+                                      - button "커밋" [ref=e1332]:
+                                        - img "커밋" [ref=e1334]
+                                      - img "Low 우선 순위" [ref=e1336]
+                                    - img "정대철" [ref=e1340]
+                    - listitem [ref=e1341]:
+                      - generic [ref=e1345]:
+                        - generic:
+                          - 'button "S14P31A301-202 [feat]: 명함 OCR 추출 요청 (스프링->파이썬). 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1346] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1348] [cursor=pointer]: "[feat]: 명함 OCR 추출 요청 (스프링->파이썬)"
+                                  - generic [ref=e1353] [cursor=pointer]: "[BE] 명함 OCR 추출 api 구현"
+                                  - generic [ref=e1355] [cursor=pointer]:
+                                    - generic [ref=e1356]:
+                                      - img "작업" [ref=e1358]
+                                      - link "S14P31A301-202이(가) 확인됨" [ref=e1360]:
+                                        - /url: /browse/S14P31A301-202
+                                        - generic [ref=e1361]: S14P31A301-202
+                                    - generic [ref=e1363]:
+                                      - generic [ref=e1366]: "2"
+                                      - button "커밋" [ref=e1368]:
+                                        - img "커밋" [ref=e1370]
+                                      - img "Low 우선 순위" [ref=e1372]
+                                    - img "이세원" [ref=e1376]
+                    - listitem [ref=e1377]:
+                      - generic [ref=e1381]:
+                        - generic:
+                          - 'button "S14P31A301-201 [feat]: 딜 목록 조회. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1382] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1384] [cursor=pointer]: "[feat]: 딜 목록 조회"
+                                  - generic [ref=e1389] [cursor=pointer]: "[BE] 영업건/파이프라인"
+                                  - generic [ref=e1391] [cursor=pointer]:
+                                    - generic [ref=e1392]:
+                                      - img "작업" [ref=e1394]
+                                      - link "S14P31A301-201이(가) 확인됨" [ref=e1396]:
+                                        - /url: /browse/S14P31A301-201
+                                        - generic [ref=e1397]: S14P31A301-201
+                                    - generic [ref=e1399]:
+                                      - generic [ref=e1402]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e1404]:
+                                        - img "병합된 풀리퀘스트" [ref=e1406]
+                                      - img "Low 우선 순위" [ref=e1408]
+                                    - img "정은지" [ref=e1412]
+                    - listitem [ref=e1413]:
+                      - generic [ref=e1417]:
+                        - generic:
+                          - 'button "S14P31A301-189 [feat]: 안드로이드 및 웹 뷰 공유. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1418] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1420] [cursor=pointer]: "[feat]: 안드로이드 및 웹 뷰 공유"
+                                  - generic [ref=e1425] [cursor=pointer]: "[APP] 모바일 개발 환경 구축"
+                                  - generic [ref=e1427] [cursor=pointer]:
+                                    - generic [ref=e1428]:
+                                      - img "작업" [ref=e1430]
+                                      - link "S14P31A301-189이(가) 확인됨" [ref=e1432]:
+                                        - /url: /browse/S14P31A301-189
+                                        - generic [ref=e1433]: S14P31A301-189
+                                    - generic [ref=e1435]:
+                                      - generic [ref=e1438]: "2"
+                                      - button "커밋" [ref=e1440]:
+                                        - img "커밋" [ref=e1442]
+                                      - img "Low 우선 순위" [ref=e1444]
+                                    - img "이세원" [ref=e1448]
+                    - listitem [ref=e1449]:
+                      - generic [ref=e1453]:
+                        - generic:
+                          - 'button "S14P31A301-188 [chore]: 안드로이드 MVVM 아키텍처 기반 프로젝트 파일 구축. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1454] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1456] [cursor=pointer]: "[chore]: 안드로이드 MVVM 아키텍처 기반 프로젝트 파일 구축"
+                                  - generic [ref=e1461] [cursor=pointer]: "[APP] 모바일 개발 환경 구축"
+                                  - generic [ref=e1463] [cursor=pointer]:
+                                    - generic [ref=e1464]:
+                                      - img "작업" [ref=e1466]
+                                      - link "S14P31A301-188이(가) 확인됨" [ref=e1468]:
+                                        - /url: /browse/S14P31A301-188
+                                        - generic [ref=e1469]: S14P31A301-188
+                                    - generic [ref=e1471]:
+                                      - generic [ref=e1474]: "2"
+                                      - button "커밋" [ref=e1476]:
+                                        - img "커밋" [ref=e1478]
+                                      - img "Low 우선 순위" [ref=e1480]
+                                    - img "이세원" [ref=e1484]
+                    - listitem [ref=e1485]:
+                      - generic [ref=e1489]:
+                        - generic:
+                          - 'button "S14P31A301-192 [feat]: 캘린더 일정 조회. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1490] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1492] [cursor=pointer]: "[feat]: 캘린더 일정 조회"
+                                  - generic [ref=e1497] [cursor=pointer]: "[BE] 캘린더"
+                                  - generic [ref=e1499] [cursor=pointer]:
+                                    - generic [ref=e1500]:
+                                      - img "작업" [ref=e1502]
+                                      - link "S14P31A301-192이(가) 확인됨" [ref=e1504]:
+                                        - /url: /browse/S14P31A301-192
+                                        - generic [ref=e1505]: S14P31A301-192
+                                    - generic [ref=e1507]:
+                                      - generic [ref=e1510]: "2"
+                                      - button "커밋" [ref=e1512]:
+                                        - img "커밋" [ref=e1514]
+                                      - img "Low 우선 순위" [ref=e1516]
+                                    - img "정은지" [ref=e1520]
+                    - listitem [ref=e1521]:
+                      - generic [ref=e1525]:
+                        - generic:
+                          - 'button "S14P31A301-191 [feat]: 캘린더 일정 상세 조회. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1526] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1528] [cursor=pointer]: "[feat]: 캘린더 일정 상세 조회"
+                                  - generic [ref=e1533] [cursor=pointer]: "[BE] 캘린더"
+                                  - generic [ref=e1535] [cursor=pointer]:
+                                    - generic [ref=e1536]:
+                                      - img "작업" [ref=e1538]
+                                      - link "S14P31A301-191이(가) 확인됨" [ref=e1540]:
+                                        - /url: /browse/S14P31A301-191
+                                        - generic [ref=e1541]: S14P31A301-191
+                                    - generic [ref=e1543]:
+                                      - generic [ref=e1546]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e1548]:
+                                        - img "병합된 풀리퀘스트" [ref=e1550]
+                                      - img "Low 우선 순위" [ref=e1552]
+                                    - img "정은지" [ref=e1556]
+                    - listitem [ref=e1557]:
+                      - generic [ref=e1561]:
+                        - generic:
+                          - 'button "S14P31A301-194 [feat]: 명함 OCR 추출 로직 작성 (파이썬). 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1562] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1564] [cursor=pointer]: "[feat]: 명함 OCR 추출 로직 작성 (파이썬)"
+                                  - generic [ref=e1569] [cursor=pointer]: "[AI] 명함 OCR 추출 기능 구현"
+                                  - generic [ref=e1571] [cursor=pointer]:
+                                    - generic [ref=e1572]:
+                                      - img "작업" [ref=e1574]
+                                      - link "S14P31A301-194이(가) 확인됨" [ref=e1576]:
+                                        - /url: /browse/S14P31A301-194
+                                        - generic [ref=e1577]: S14P31A301-194
+                                    - generic [ref=e1579]:
+                                      - generic [ref=e1582]: "4"
+                                      - button "커밋" [ref=e1584]:
+                                        - img "커밋" [ref=e1586]
+                                      - img "Low 우선 순위" [ref=e1588]
+                                    - img "정은지" [ref=e1592]
+                    - listitem [ref=e1593]:
+                      - generic [ref=e1597]:
+                        - generic:
+                          - 'button "S14P31A301-258 [feat]: 명함 OCR 추출 요청 (모바일 -> 스프링). 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1598] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1600] [cursor=pointer]: "[feat]: 명함 OCR 추출 요청 (모바일 -> 스프링)"
+                                  - generic [ref=e1605] [cursor=pointer]: "[APP] 명함 OCR 추출 api 구현"
+                                  - generic [ref=e1607] [cursor=pointer]:
+                                    - generic [ref=e1608]:
+                                      - img "작업" [ref=e1610]
+                                      - link "S14P31A301-258이(가) 확인됨" [ref=e1612]:
+                                        - /url: /browse/S14P31A301-258
+                                        - generic [ref=e1613]: S14P31A301-258
+                                    - generic [ref=e1615]:
+                                      - generic [ref=e1618]: "2"
+                                      - button "커밋" [ref=e1620]:
+                                        - img "커밋" [ref=e1622]
+                                      - img "Low 우선 순위" [ref=e1624]
+                                    - img "이세원" [ref=e1628]
+                    - listitem [ref=e1629]:
+                      - generic [ref=e1633]:
+                        - generic:
+                          - 'button "S14P31A301-196 [feat]: 명함 OCR 추출 화면 제작 (모바일). 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1634] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1636] [cursor=pointer]: "[feat]: 명함 OCR 추출 화면 제작 (모바일)"
+                                  - generic [ref=e1641] [cursor=pointer]: "[APP] 명함 OCR 추출 api 구현"
+                                  - generic [ref=e1643] [cursor=pointer]:
+                                    - generic [ref=e1644]:
+                                      - img "작업" [ref=e1646]
+                                      - link "S14P31A301-196이(가) 확인됨" [ref=e1648]:
+                                        - /url: /browse/S14P31A301-196
+                                        - generic [ref=e1649]: S14P31A301-196
+                                    - generic [ref=e1651]:
+                                      - generic [ref=e1654]: "3"
+                                      - button "병합된 풀리퀘스트" [ref=e1656]:
+                                        - img "병합된 풀리퀘스트" [ref=e1658]
+                                      - img "Low 우선 순위" [ref=e1660]
+                                    - img "이세원" [ref=e1664]
+                    - listitem [ref=e1665]:
+                      - generic [ref=e1669]:
+                        - generic:
+                          - 'button "S14P31A301-200 [chore]: 프론트엔드 배포. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1670] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1672] [cursor=pointer]: "[chore]: 프론트엔드 배포"
+                                  - generic [ref=e1677] [cursor=pointer]: "[AI] 영업 전략 추천 AI 모델 개발"
+                                  - generic [ref=e1679] [cursor=pointer]:
+                                    - generic [ref=e1680]:
+                                      - img "작업" [ref=e1682]
+                                      - link "S14P31A301-200이(가) 확인됨" [ref=e1684]:
+                                        - /url: /browse/S14P31A301-200
+                                        - generic [ref=e1685]: S14P31A301-200
+                                    - generic [ref=e1687]:
+                                      - generic [ref=e1690]: "2"
+                                      - button "커밋" [ref=e1692]:
+                                        - img "커밋" [ref=e1694]
+                                      - img "Low 우선 순위" [ref=e1696]
+                                    - img "정은지" [ref=e1700]
+                    - listitem [ref=e1701]:
+                      - generic [ref=e1705]:
+                        - generic:
+                          - 'button "S14P31A301-198 [chore]: 관련 데이터 수집. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1706] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1708] [cursor=pointer]: "[chore]: 관련 데이터 수집"
+                                  - generic [ref=e1713] [cursor=pointer]: "[AI] 영업 전략 추천 AI 모델 개발"
+                                  - generic [ref=e1715] [cursor=pointer]:
+                                    - generic [ref=e1716]:
+                                      - img "작업" [ref=e1718]
+                                      - link "S14P31A301-198이(가) 확인됨" [ref=e1720]:
+                                        - /url: /browse/S14P31A301-198
+                                        - generic [ref=e1721]: S14P31A301-198
+                                    - generic [ref=e1723]:
+                                      - generic [ref=e1726]: "3"
+                                      - img "Low 우선 순위" [ref=e1728]
+                                    - img "이세원" [ref=e1732]
+                    - listitem [ref=e1733]:
+                      - generic [ref=e1737]:
+                        - generic:
+                          - 'button "S14P31A301-211 [feat]: 대시보드 생성. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1738] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1740] [cursor=pointer]: "[feat]: 대시보드 생성"
+                                  - generic [ref=e1745] [cursor=pointer]: "[BE] 대시보드"
+                                  - generic [ref=e1747] [cursor=pointer]:
+                                    - generic [ref=e1748]:
+                                      - img "작업" [ref=e1750]
+                                      - link "S14P31A301-211이(가) 확인됨" [ref=e1752]:
+                                        - /url: /browse/S14P31A301-211
+                                        - generic [ref=e1753]: S14P31A301-211
+                                    - generic [ref=e1755]:
+                                      - generic [ref=e1758]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e1760]:
+                                        - img "병합된 풀리퀘스트" [ref=e1762]
+                                      - img "Low 우선 순위" [ref=e1764]
+                                    - img "류수정" [ref=e1768]
+                    - listitem [ref=e1769]:
+                      - generic [ref=e1773]:
+                        - generic:
+                          - 'button "S14P31A301-213 [feat]: 위젯 수정. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1774] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1776] [cursor=pointer]: "[feat]: 위젯 수정"
+                                  - generic [ref=e1781] [cursor=pointer]: "[BE] 대시보드"
+                                  - generic [ref=e1783] [cursor=pointer]:
+                                    - generic [ref=e1784]:
+                                      - img "작업" [ref=e1786]
+                                      - link "S14P31A301-213이(가) 확인됨" [ref=e1788]:
+                                        - /url: /browse/S14P31A301-213
+                                        - generic [ref=e1789]: S14P31A301-213
+                                    - generic [ref=e1791]:
+                                      - generic [ref=e1794]: "2"
+                                      - button "커밋" [ref=e1796]:
+                                        - img "커밋" [ref=e1798]
+                                      - img "Low 우선 순위" [ref=e1800]
+                                    - img "류수정" [ref=e1804]
+                    - listitem [ref=e1805]:
+                      - generic [ref=e1809]:
+                        - generic:
+                          - 'button "S14P31A301-217 [refactor]: 버튼 및 디자인 1차 수정. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1810] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1812] [cursor=pointer]: "[refactor]: 버튼 및 디자인 1차 수정"
+                                  - generic [ref=e1817] [cursor=pointer]: "[FE] 캘린더, 고객, 대시보드 페이지 구현"
+                                  - generic [ref=e1819] [cursor=pointer]:
+                                    - generic [ref=e1820]:
+                                      - img "작업" [ref=e1822]
+                                      - link "S14P31A301-217이(가) 확인됨" [ref=e1824]:
+                                        - /url: /browse/S14P31A301-217
+                                        - generic [ref=e1825]: S14P31A301-217
+                                    - generic [ref=e1827]:
+                                      - generic [ref=e1830]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e1832]:
+                                        - img "병합된 풀리퀘스트" [ref=e1834]
+                                      - img "Low 우선 순위" [ref=e1836]
+                                    - img "김민재" [ref=e1840]
+                    - listitem [ref=e1841]:
+                      - generic [ref=e1845]:
+                        - generic:
+                          - 'button "S14P31A301-215 [feat]: 대시보드 상세 조회. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1846] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1848] [cursor=pointer]: "[feat]: 대시보드 상세 조회"
+                                  - generic [ref=e1853] [cursor=pointer]: "[BE] 대시보드"
+                                  - generic [ref=e1855] [cursor=pointer]:
+                                    - generic [ref=e1856]:
+                                      - img "작업" [ref=e1858]
+                                      - link "S14P31A301-215이(가) 확인됨" [ref=e1860]:
+                                        - /url: /browse/S14P31A301-215
+                                        - generic [ref=e1861]: S14P31A301-215
+                                    - generic [ref=e1863]:
+                                      - generic [ref=e1866]: "2"
+                                      - button "커밋" [ref=e1868]:
+                                        - img "커밋" [ref=e1870]
+                                      - img "Low 우선 순위" [ref=e1872]
+                                    - img "채지원" [ref=e1876]
+                    - listitem [ref=e1877]:
+                      - generic [ref=e1881]:
+                        - generic:
+                          - 'button "S14P31A301-214 [feat]: 자연어 쿼리 진행 SSE. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1882] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1884] [cursor=pointer]: "[feat]: 자연어 쿼리 진행 SSE"
+                                  - generic [ref=e1889] [cursor=pointer]: "[BE] 대시보드"
+                                  - generic [ref=e1891] [cursor=pointer]:
+                                    - generic [ref=e1892]:
+                                      - img "작업" [ref=e1894]
+                                      - link "S14P31A301-214이(가) 확인됨" [ref=e1896]:
+                                        - /url: /browse/S14P31A301-214
+                                        - generic [ref=e1897]: S14P31A301-214
+                                    - generic [ref=e1899]:
+                                      - generic [ref=e1902]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e1904]:
+                                        - img "병합된 풀리퀘스트" [ref=e1906]
+                                      - img "Low 우선 순위" [ref=e1908]
+                                    - img "류수정" [ref=e1912]
+                    - listitem [ref=e1913]:
+                      - generic [ref=e1917]:
+                        - generic:
+                          - 'button "S14P31A301-212 [feat]: 대시보드 목록 조회. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1918] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1920] [cursor=pointer]: "[feat]: 대시보드 목록 조회"
+                                  - generic [ref=e1925] [cursor=pointer]: "[BE] 대시보드"
+                                  - generic [ref=e1927] [cursor=pointer]:
+                                    - generic [ref=e1928]:
+                                      - img "작업" [ref=e1930]
+                                      - link "S14P31A301-212이(가) 확인됨" [ref=e1932]:
+                                        - /url: /browse/S14P31A301-212
+                                        - generic [ref=e1933]: S14P31A301-212
+                                    - generic [ref=e1935]:
+                                      - generic [ref=e1938]: "2"
+                                      - button "커밋" [ref=e1940]:
+                                        - img "커밋" [ref=e1942]
+                                      - img "Low 우선 순위" [ref=e1944]
+                                    - img "채지원" [ref=e1948]
+                    - listitem [ref=e1949]:
+                      - generic [ref=e1953]:
+                        - generic:
+                          - 'button "S14P31A301-208 [feat]: 대시보드 수정. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1954] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1956] [cursor=pointer]: "[feat]: 대시보드 수정"
+                                  - generic [ref=e1961] [cursor=pointer]: "[BE] 대시보드"
+                                  - generic [ref=e1963] [cursor=pointer]:
+                                    - generic [ref=e1964]:
+                                      - img "작업" [ref=e1966]
+                                      - link "S14P31A301-208이(가) 확인됨" [ref=e1968]:
+                                        - /url: /browse/S14P31A301-208
+                                        - generic [ref=e1969]: S14P31A301-208
+                                    - generic [ref=e1971]:
+                                      - generic [ref=e1974]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e1976]:
+                                        - img "병합된 풀리퀘스트" [ref=e1978]
+                                      - img "Low 우선 순위" [ref=e1980]
+                                    - img "채지원" [ref=e1984]
+                    - listitem [ref=e1985]:
+                      - generic [ref=e1989]:
+                        - generic:
+                          - 'button "S14P31A301-207 [feat]: 자연어 쿼리 시작. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e1990] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e1992] [cursor=pointer]: "[feat]: 자연어 쿼리 시작"
+                                  - generic [ref=e1997] [cursor=pointer]: "[BE] 대시보드"
+                                  - generic [ref=e1999] [cursor=pointer]:
+                                    - generic [ref=e2000]:
+                                      - img "작업" [ref=e2002]
+                                      - link "S14P31A301-207이(가) 확인됨" [ref=e2004]:
+                                        - /url: /browse/S14P31A301-207
+                                        - generic [ref=e2005]: S14P31A301-207
+                                    - generic [ref=e2007]:
+                                      - generic [ref=e2010]: "2"
+                                      - button "커밋" [ref=e2012]:
+                                        - img "커밋" [ref=e2014]
+                                      - img "Low 우선 순위" [ref=e2016]
+                                    - img "류수정" [ref=e2020]
+                    - listitem [ref=e2021]:
+                      - generic [ref=e2025]:
+                        - generic:
+                          - 'button "S14P31A301-223 [feat]: 대시보드 생성. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2026] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2028] [cursor=pointer]: "[feat]: 대시보드 생성"
+                                  - generic [ref=e2033] [cursor=pointer]: "[AI] 대시보드"
+                                  - generic [ref=e2035] [cursor=pointer]:
+                                    - generic [ref=e2036]:
+                                      - img "작업" [ref=e2038]
+                                      - link "S14P31A301-223이(가) 확인됨" [ref=e2040]:
+                                        - /url: /browse/S14P31A301-223
+                                        - generic [ref=e2041]: S14P31A301-223
+                                    - generic [ref=e2043]:
+                                      - generic [ref=e2046]: "4"
+                                      - button "커밋" [ref=e2048]:
+                                        - img "커밋" [ref=e2050]
+                                      - img "Low 우선 순위" [ref=e2052]
+                                    - img "정대철" [ref=e2056]
+                    - listitem [ref=e2057]:
+                      - generic [ref=e2061]:
+                        - generic:
+                          - 'button "S14P31A301-222 [feat]: 위젯 수정. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2062] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2064] [cursor=pointer]: "[feat]: 위젯 수정"
+                                  - generic [ref=e2069] [cursor=pointer]: "[AI] 대시보드"
+                                  - generic [ref=e2071] [cursor=pointer]:
+                                    - generic [ref=e2072]:
+                                      - img "작업" [ref=e2074]
+                                      - link "S14P31A301-222이(가) 확인됨" [ref=e2076]:
+                                        - /url: /browse/S14P31A301-222
+                                        - generic [ref=e2077]: S14P31A301-222
+                                    - generic [ref=e2079]:
+                                      - generic [ref=e2082]: "3"
+                                      - button "커밋" [ref=e2084]:
+                                        - img "커밋" [ref=e2086]
+                                      - img "Low 우선 순위" [ref=e2088]
+                                    - img "정대철" [ref=e2092]
+                    - listitem [ref=e2093]:
+                      - generic [ref=e2097]:
+                        - generic:
+                          - 'button "S14P31A301-220 [feat]: 대시보드 수정. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2098] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2100] [cursor=pointer]: "[feat]: 대시보드 수정"
+                                  - generic [ref=e2105] [cursor=pointer]: "[AI] 대시보드"
+                                  - generic [ref=e2107] [cursor=pointer]:
+                                    - generic [ref=e2108]:
+                                      - img "작업" [ref=e2110]
+                                      - link "S14P31A301-220이(가) 확인됨" [ref=e2112]:
+                                        - /url: /browse/S14P31A301-220
+                                        - generic [ref=e2113]: S14P31A301-220
+                                    - generic [ref=e2115]:
+                                      - generic [ref=e2118]: "3"
+                                      - button "커밋" [ref=e2120]:
+                                        - img "커밋" [ref=e2122]
+                                      - img "Low 우선 순위" [ref=e2124]
+                                    - img "정대철" [ref=e2128]
+                    - listitem [ref=e2129]:
+                      - generic [ref=e2133]:
+                        - generic:
+                          - 'button "S14P31A301-219 [feat]: 자연어 쿼리 시작. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2134] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2136] [cursor=pointer]: "[feat]: 자연어 쿼리 시작"
+                                  - generic [ref=e2141] [cursor=pointer]: "[AI] 대시보드"
+                                  - generic [ref=e2143] [cursor=pointer]:
+                                    - generic [ref=e2144]:
+                                      - img "작업" [ref=e2146]
+                                      - link "S14P31A301-219이(가) 확인됨" [ref=e2148]:
+                                        - /url: /browse/S14P31A301-219
+                                        - generic [ref=e2149]: S14P31A301-219
+                                    - generic [ref=e2151]:
+                                      - generic [ref=e2154]: "2"
+                                      - button "커밋" [ref=e2156]:
+                                        - img "커밋" [ref=e2158]
+                                      - img "Low 우선 순위" [ref=e2160]
+                                    - img "정대철" [ref=e2164]
+                    - listitem [ref=e2165]:
+                      - generic [ref=e2169]:
+                        - generic:
+                          - 'button "S14P31A301-229 [feat]: 담당자 등록. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2170] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2172] [cursor=pointer]: "[feat]: 담당자 등록"
+                                  - generic [ref=e2177] [cursor=pointer]: "[BE] 담당자"
+                                  - generic [ref=e2179] [cursor=pointer]:
+                                    - generic [ref=e2180]:
+                                      - img "작업" [ref=e2182]
+                                      - link "S14P31A301-229이(가) 확인됨" [ref=e2184]:
+                                        - /url: /browse/S14P31A301-229
+                                        - generic [ref=e2185]: S14P31A301-229
+                                    - generic [ref=e2187]:
+                                      - generic [ref=e2190]: "2"
+                                      - button "브랜치" [ref=e2192]:
+                                        - img "브랜치" [ref=e2194]
+                                      - img "Low 우선 순위" [ref=e2196]
+                                    - img "김민재" [ref=e2200]
+                    - listitem [ref=e2201]:
+                      - generic [ref=e2205]:
+                        - generic:
+                          - 'button "S14P31A301-230 [feat]: DB 데이터 추가. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2206] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2208] [cursor=pointer]: "[feat]: DB 데이터 추가"
+                                  - generic [ref=e2213] [cursor=pointer]: "[DB] ERD기반 migration 수정"
+                                  - generic [ref=e2215] [cursor=pointer]:
+                                    - generic [ref=e2216]:
+                                      - img "작업" [ref=e2218]
+                                      - link "S14P31A301-230이(가) 확인됨" [ref=e2220]:
+                                        - /url: /browse/S14P31A301-230
+                                        - generic [ref=e2221]: S14P31A301-230
+                                    - generic [ref=e2223]:
+                                      - generic [ref=e2226]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e2228]:
+                                        - img "병합된 풀리퀘스트" [ref=e2230]
+                                      - img "Low 우선 순위" [ref=e2232]
+                                    - img "김민재" [ref=e2236]
+                    - listitem [ref=e2237]:
+                      - generic [ref=e2241]:
+                        - generic:
+                          - 'button "S14P31A301-228 [feat]: 담당자 수정. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2242] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2244] [cursor=pointer]: "[feat]: 담당자 수정"
+                                  - generic [ref=e2249] [cursor=pointer]: "[BE] 담당자"
+                                  - generic [ref=e2251] [cursor=pointer]:
+                                    - generic [ref=e2252]:
+                                      - img "작업" [ref=e2254]
+                                      - link "S14P31A301-228이(가) 확인됨" [ref=e2256]:
+                                        - /url: /browse/S14P31A301-228
+                                        - generic [ref=e2257]: S14P31A301-228
+                                    - generic [ref=e2259]:
+                                      - generic [ref=e2262]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e2264]:
+                                        - img "병합된 풀리퀘스트" [ref=e2266]
+                                      - img "Low 우선 순위" [ref=e2268]
+                                    - img "김민재" [ref=e2272]
+                    - listitem [ref=e2273]:
+                      - generic [ref=e2277]:
+                        - generic:
+                          - 'button "S14P31A301-227 [feat]: 담당자 전체 조회. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2278] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2280] [cursor=pointer]: "[feat]: 담당자 전체 조회"
+                                  - generic [ref=e2285] [cursor=pointer]: "[BE] 담당자"
+                                  - generic [ref=e2287] [cursor=pointer]:
+                                    - generic [ref=e2288]:
+                                      - img "작업" [ref=e2290]
+                                      - link "S14P31A301-227이(가) 확인됨" [ref=e2292]:
+                                        - /url: /browse/S14P31A301-227
+                                        - generic [ref=e2293]: S14P31A301-227
+                                    - generic [ref=e2295]:
+                                      - generic [ref=e2298]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e2300]:
+                                        - img "병합된 풀리퀘스트" [ref=e2302]
+                                      - img "Low 우선 순위" [ref=e2304]
+                                    - img "김민재" [ref=e2308]
+                    - listitem [ref=e2309]:
+                      - generic [ref=e2313]:
+                        - generic:
+                          - 'button "S14P31A301-226 [feat]: 담당자 삭제. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2314] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2316] [cursor=pointer]: "[feat]: 담당자 삭제"
+                                  - generic [ref=e2321] [cursor=pointer]: "[BE] 담당자"
+                                  - generic [ref=e2323] [cursor=pointer]:
+                                    - generic [ref=e2324]:
+                                      - img "작업" [ref=e2326]
+                                      - link "S14P31A301-226이(가) 확인됨" [ref=e2328]:
+                                        - /url: /browse/S14P31A301-226
+                                        - generic [ref=e2329]: S14P31A301-226
+                                    - generic [ref=e2331]:
+                                      - generic [ref=e2334]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e2336]:
+                                        - img "병합된 풀리퀘스트" [ref=e2338]
+                                      - img "Low 우선 순위" [ref=e2340]
+                                    - img "김민재" [ref=e2344]
+                    - listitem [ref=e2345]:
+                      - generic [ref=e2349]:
+                        - generic:
+                          - 'button "S14P31A301-237 [feat]: 캘린더 페이지 api 붙이기. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2350] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2352] [cursor=pointer]: "[feat]: 캘린더 페이지 api 붙이기"
+                                  - generic [ref=e2357] [cursor=pointer]: "[FE] 캘린더, 고객, 대시보드 페이지 구현"
+                                  - generic [ref=e2359] [cursor=pointer]:
+                                    - generic [ref=e2360]:
+                                      - img "작업" [ref=e2362]
+                                      - link "S14P31A301-237이(가) 확인됨" [ref=e2364]:
+                                        - /url: /browse/S14P31A301-237
+                                        - generic [ref=e2365]: S14P31A301-237
+                                    - generic [ref=e2367]:
+                                      - generic [ref=e2370]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e2372]:
+                                        - img "병합된 풀리퀘스트" [ref=e2374]
+                                      - img "Low 우선 순위" [ref=e2376]
+                                    - img "김민재" [ref=e2380]
+                    - listitem [ref=e2381]:
+                      - generic [ref=e2385]:
+                        - generic:
+                          - 'button "S14P31A301-236 [feat]: 고객 페이지 api 붙이기. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2386] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2388] [cursor=pointer]: "[feat]: 고객 페이지 api 붙이기"
+                                  - generic [ref=e2393] [cursor=pointer]: "[FE] 캘린더, 고객, 대시보드 페이지 구현"
+                                  - generic [ref=e2395] [cursor=pointer]:
+                                    - generic [ref=e2396]:
+                                      - img "작업" [ref=e2398]
+                                      - link "S14P31A301-236이(가) 확인됨" [ref=e2400]:
+                                        - /url: /browse/S14P31A301-236
+                                        - generic [ref=e2401]: S14P31A301-236
+                                    - generic [ref=e2403]:
+                                      - generic [ref=e2406]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e2408]:
+                                        - img "병합된 풀리퀘스트" [ref=e2410]
+                                      - img "Low 우선 순위" [ref=e2412]
+                                    - img "김민재" [ref=e2416]
+                    - listitem [ref=e2417]:
+                      - generic [ref=e2421]:
+                        - generic:
+                          - 'button "S14P31A301-235 [feat]: 대시보드 페이지 api 붙이기. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2422] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2424] [cursor=pointer]: "[feat]: 대시보드 페이지 api 붙이기"
+                                  - generic [ref=e2429] [cursor=pointer]: "[FE] 캘린더, 고객, 대시보드 페이지 구현"
+                                  - generic [ref=e2431] [cursor=pointer]:
+                                    - generic [ref=e2432]:
+                                      - img "작업" [ref=e2434]
+                                      - link "S14P31A301-235이(가) 확인됨" [ref=e2436]:
+                                        - /url: /browse/S14P31A301-235
+                                        - generic [ref=e2437]: S14P31A301-235
+                                    - generic [ref=e2439]:
+                                      - generic [ref=e2442]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e2444]:
+                                        - img "병합된 풀리퀘스트" [ref=e2446]
+                                      - img "Low 우선 순위" [ref=e2448]
+                                    - img "김민재" [ref=e2452]
+                    - listitem [ref=e2453]:
+                      - generic [ref=e2457]:
+                        - generic:
+                          - 'button "S14P31A301-234 [feat]: 대시보드 페이지 구현. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2458] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2460] [cursor=pointer]: "[feat]: 대시보드 페이지 구현"
+                                  - generic [ref=e2465] [cursor=pointer]: "[FE] 캘린더, 고객, 대시보드 페이지 구현"
+                                  - generic [ref=e2467] [cursor=pointer]:
+                                    - generic [ref=e2468]:
+                                      - img "작업" [ref=e2470]
+                                      - link "S14P31A301-234이(가) 확인됨" [ref=e2472]:
+                                        - /url: /browse/S14P31A301-234
+                                        - generic [ref=e2473]: S14P31A301-234
+                                    - generic [ref=e2475]:
+                                      - generic [ref=e2478]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e2480]:
+                                        - img "병합된 풀리퀘스트" [ref=e2482]
+                                      - img "Low 우선 순위" [ref=e2484]
+                                    - img "김민재" [ref=e2488]
+                    - listitem [ref=e2489]:
+                      - generic [ref=e2493]:
+                        - generic:
+                          - 'button "S14P31A301-233 [feat]: 고객 페이지 구현. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2494] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2496] [cursor=pointer]: "[feat]: 고객 페이지 구현"
+                                  - generic [ref=e2501] [cursor=pointer]: "[FE] 캘린더, 고객, 대시보드 페이지 구현"
+                                  - generic [ref=e2503] [cursor=pointer]:
+                                    - generic [ref=e2504]:
+                                      - img "작업" [ref=e2506]
+                                      - link "S14P31A301-233이(가) 확인됨" [ref=e2508]:
+                                        - /url: /browse/S14P31A301-233
+                                        - generic [ref=e2509]: S14P31A301-233
+                                    - generic [ref=e2511]:
+                                      - generic [ref=e2514]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e2516]:
+                                        - img "병합된 풀리퀘스트" [ref=e2518]
+                                      - img "Low 우선 순위" [ref=e2520]
+                                    - img "김민재" [ref=e2524]
+                    - listitem [ref=e2525]:
+                      - generic [ref=e2529]:
+                        - generic:
+                          - 'button "S14P31A301-232 [feat]: 캘린더 페이지 구현. 업무 항목을 로드하려면 Enter 키를 사용하세요." [ref=e2530] [cursor=pointer]'
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic [ref=e2532] [cursor=pointer]: "[feat]: 캘린더 페이지 구현"
+                                  - generic [ref=e2537] [cursor=pointer]: "[FE] 캘린더, 고객, 대시보드 페이지 구현"
+                                  - generic [ref=e2539] [cursor=pointer]:
+                                    - generic [ref=e2540]:
+                                      - img "작업" [ref=e2542]
+                                      - link "S14P31A301-232이(가) 확인됨" [ref=e2544]:
+                                        - /url: /browse/S14P31A301-232
+                                        - generic [ref=e2545]: S14P31A301-232
+                                    - generic [ref=e2547]:
+                                      - generic [ref=e2550]: "2"
+                                      - button "병합된 풀리퀘스트" [ref=e2552]:
+                                        - img "병합된 풀리퀘스트" [ref=e2554]
+                                      - img "Low 우선 순위" [ref=e2556]
+                                    - img "김민재" [ref=e2560]
+                - generic [ref=e2561]:
+                  - generic:
+                    - status [ref=e2562]
+                    - status [ref=e2563]
+  - button "Open Rovo Chat" [ref=e2568] [cursor=pointer]:
+    - generic [ref=e2569]: Open Rovo Chat
+    - img [ref=e2571]
