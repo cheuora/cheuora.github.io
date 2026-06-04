@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: SSAFY"
-tag: SSAFY
+title: "Tag: KOREA"
+tag: KOREA
 robots: noindex
 ---

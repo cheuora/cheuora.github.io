@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: SSAFY"
-tag: SSAFY
+title: "Tag: JAPAN"
+tag: JAPAN
 robots: noindex
 ---
