@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 《아무도 기획하지 않은 자유》, 영화 《안경》, 그리고 《청킹맨션…》
-tags: [book]
+tags: [books]
 use_math: false
 mermaid: false
 ---
