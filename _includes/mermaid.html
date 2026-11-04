@@ -1,0 +1,25 @@
+{% if page.mermaid %}
+<script type="module">
+  import mermaid from
+    'https://cdn.jsdelivr.net/npm/mermaid@12/dist/mermaid.esm.min.mjs';
+
+  // Markdown의 mermaid 코드 블록을 렌더링 대상으로 변환
+  document.querySelectorAll('pre code.language-mermaid')
+    .forEach((code) => {
+      const diagram = document.createElement('pre');
+      diagram.className = 'mermaid';
+      diagram.textContent = code.textContent;
+      code.closest('pre').replaceWith(diagram);
+    });
+
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: 'default',
+    securityLevel: 'strict'
+  });
+
+  await mermaid.run({
+    querySelector: '.mermaid'
+  });
+</script>
+{% endif %}
